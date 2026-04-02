@@ -1,0 +1,4372 @@
+2026-04-01T15:18:27.546+08:00 [gateway] auto-enabled plugins:
+- feishu configured, enabled automatically.
+2026-04-01T15:18:27.866+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:18:27.868+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:18:27.869+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:18:27.871+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:18:27.872+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:18:27.931+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:18:33.249+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:18:33.254+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:18:33.255+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:18:33.256+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:18:33.261+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:18:33.541+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:18:38.400+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:18:38.402+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:18:38.403+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:18:38.404+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:18:38.406+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:18:38.456+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:18:44.176+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:18:44.186+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:18:44.187+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:18:44.188+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:18:44.190+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:18:44.246+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:18:48.945+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:18:48.946+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:18:48.947+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:18:48.948+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:18:48.950+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:18:49.002+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:18:53.503+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:18:53.504+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:18:53.505+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:18:53.506+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:18:53.507+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:18:53.557+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:18:58.097+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:18:58.099+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:18:58.100+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:18:58.101+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:18:58.103+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:18:58.152+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:02.647+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:02.648+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:02.650+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:02.651+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:02.652+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:02.706+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:07.163+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:07.164+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:07.165+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:07.166+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:07.168+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:07.214+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:11.691+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:11.693+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:11.694+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:11.695+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:11.697+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:11.749+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:16.189+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:16.191+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:16.192+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:16.194+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:16.195+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:16.244+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:20.668+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:20.669+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:20.670+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:20.671+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:20.673+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:20.724+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:25.202+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:25.204+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:25.205+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:25.205+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:25.207+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:25.256+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:29.693+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:29.694+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:29.695+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:29.696+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:29.698+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:29.747+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:34.301+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:34.302+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:34.303+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:34.304+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:34.306+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:34.356+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:38.873+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:38.874+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:38.875+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:38.876+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:38.878+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:38.930+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:43.623+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:43.625+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:43.626+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:43.626+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:43.628+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:43.688+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:48.478+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:48.479+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:48.480+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:48.481+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:48.482+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:48.532+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:52.983+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:52.984+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:52.985+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:52.986+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:52.989+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:53.040+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:19:57.483+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:19:57.485+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:19:57.486+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:19:57.487+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:19:57.488+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:19:57.541+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:01.988+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:01.989+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:01.990+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:01.991+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:01.997+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:02.052+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:06.533+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:06.535+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:06.536+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:06.537+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:06.539+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:06.589+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:11.047+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:11.048+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:11.049+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:11.050+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:11.052+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:11.102+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:15.588+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:15.589+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:15.590+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:15.592+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:15.593+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:15.644+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:20.155+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:20.156+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:20.157+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:20.159+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:20.161+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:20.211+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:24.660+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:24.661+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:24.662+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:24.664+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:24.665+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:24.716+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:29.555+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:29.561+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:29.562+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:29.563+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:29.565+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:29.620+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:34.629+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:34.631+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:34.632+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:34.633+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:34.634+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:34.691+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:39.201+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:39.203+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:39.205+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:39.206+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:39.208+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:39.265+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:43.833+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:43.835+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:43.836+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:43.838+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:43.840+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:43.893+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:49.001+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:49.003+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:49.004+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:49.005+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:49.007+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:49.059+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:53.659+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:53.661+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:53.662+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:53.663+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:53.664+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:53.715+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:20:58.202+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:20:58.204+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:20:58.205+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:20:58.206+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:20:58.207+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T15:20:58.257+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T15:21:00.434+08:00 [heartbeat] started
+2026-04-01T15:21:00.436+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-01T15:21:00.496+08:00 [gateway] agent model: minimax/MiniMax-M2.7
+2026-04-01T15:21:00.497+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 21261)
+2026-04-01T15:21:00.499+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-04-01.log
+2026-04-01T15:21:00.610+08:00 [info]: [ 'client ready' ]
+2026-04-01T15:21:00.661+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-01T15:21:03.561+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-01T15:21:03.684+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:21:03.697+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:21:03.700+08:00 [feishu] feishu[default]: bot open_id resolved: unknown
+2026-04-01T15:21:03.701+08:00 [feishu] feishu[default]: bot open_id unknown; starting background retry (delays: 60s, 120s, 300s, 600s, 900s)
+2026-04-01T15:21:03.702+08:00 [feishu] feishu[default]: requireMention group messages stay gated until bot identity recovery succeeds
+2026-04-01T15:21:03.703+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-01T15:21:03.724+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-01T15:21:03.725+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-01T15:21:03.728+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-01T15:21:03.780+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:21:03.782+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:21:03.783+08:00 [error]: [ '[ws]', 'connect failed' ]
+2026-04-01T15:21:03.784+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-01T15:21:03.786+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-01T15:21:08.442+08:00 [ws] ⇄ res ✓ chat.history 3270ms conn=93cddd2f…eed9 id=0874a7b3…e51e
+2026-04-01T15:21:08.447+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:21:08.448+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:21:08.449+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-04-01T15:21:13.391+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T15:21:13.393+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-01T15:21:13.394+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T15:21:13.395+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-01T15:21:13.397+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-01T15:22:03.908+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:23:09.113+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:23:09.121+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:23:09.126+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-04-01T15:24:00.723+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:25:10.650+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:25:10.656+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:25:10.660+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 3 times")' ]
+2026-04-01T15:26:00.709+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:26:12.296+08:00 [gateway] device pairing auto-approved device=bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d role=operator
+2026-04-01T15:27:11.280+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:27:11.293+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:27:11.299+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 4 times")' ]
+2026-04-01T15:27:34.601+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 82221ms conn=8e04c341…c5e2 id=dd1dbcb2…554e
+2026-04-01T15:27:34.788+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:28:04.199+08:00 exec approval followup dispatch failed (id=1a1e3df0-1546-4b02-8051-315384bb9a47): gateway closed (1008): pairing required
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T15:29:01.169+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:29:11.436+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:29:11.446+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:29:11.450+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 5 times")' ]
+2026-04-01T15:30:00.308+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 32551ms conn=fb0687f4…7547 id=385c3391…a501
+2026-04-01T15:30:22.106+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:30:52.307+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 31078ms conn=50262f66…b39f id=905e83ba…7297
+2026-04-01T15:31:02.732+08:00 exec approval followup dispatch failed (id=97d470e8-cd0a-403d-8eab-f875c5312c38): gateway closed (1008): pairing required
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T15:31:03.305+08:00 exec approval followup dispatch failed (id=c649d8fa-7669-46bc-9691-8295f80e16d9): gateway closed (1008): pairing required
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T15:31:11.613+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:31:11.621+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:31:11.623+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 6 times")' ]
+2026-04-01T15:32:01.325+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:33:11.730+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:33:11.738+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:33:11.742+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 7 times")' ]
+2026-04-01T15:34:01.246+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:35:12.267+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:35:12.276+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:35:12.279+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 8 times")' ]
+2026-04-01T15:36:01.318+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:37:12.392+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:37:12.402+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:37:12.404+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 9 times")' ]
+2026-04-01T15:38:01.259+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:39:04.145+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:39:12.527+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:39:12.541+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:39:12.552+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 10 times")' ]
+2026-04-01T15:41:01.511+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:41:12.798+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:41:12.813+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:41:12.850+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 11 times")' ]
+2026-04-01T15:43:02.193+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:43:12.988+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:43:13.006+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:43:13.012+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 12 times")' ]
+2026-04-01T15:45:00.987+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:45:13.121+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:45:13.129+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:45:13.132+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 13 times")' ]
+2026-04-01T15:46:22.856+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:46:54.924+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 944496ms conn=05f7a902…e5d6 id=c60080c1…504b
+2026-04-01T15:47:09.925+08:00 exec approval followup dispatch failed (id=1ffb3984-cef0-498e-b9b0-4f18d462fc0f): gateway closed (1008): pairing required
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T15:47:13.226+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:47:13.232+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:47:13.235+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 14 times")' ]
+2026-04-01T15:48:01.376+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:49:13.384+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:49:13.390+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:49:13.393+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 15 times")' ]
+2026-04-01T15:50:01.303+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:51:13.512+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:51:13.520+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:51:13.523+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 16 times")' ]
+2026-04-01T15:52:01.480+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:53:13.667+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:53:13.677+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:53:13.680+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 17 times")' ]
+2026-04-01T15:54:01.938+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:55:13.840+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:55:13.848+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:55:13.854+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 18 times")' ]
+2026-04-01T15:56:01.301+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:57:13.998+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:57:14.005+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:57:14.006+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 19 times")' ]
+2026-04-01T15:58:01.329+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T15:59:14.153+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T15:59:14.178+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T15:59:14.180+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 20 times")' ]
+2026-04-01T15:59:49.025+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:01:00.810+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:01:14.850+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:01:14.866+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:01:14.868+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 21 times")' ]
+2026-04-01T16:03:02.104+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:03:15.016+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:03:15.028+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:03:15.033+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 22 times")' ]
+2026-04-01T16:04:05.184+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 8835ms conn=15c0db7a…d322 id=500f3541…0876
+2026-04-01T16:04:05.248+08:00 exec approval followup dispatch failed (id=6cf891d8-69f8-4a20-b7ee-5c055cce0374): gateway closed (1008): pairing required
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:04:05.361+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:04:13.056+08:00 [ws] ⇄ res ✗ exec.approval.resolve 0ms errorCode=INVALID_REQUEST errorMessage=unknown or expired approval id conn=e8b507e4…5970 id=a3508299…ad58
+2026-04-01T16:04:13.085+08:00 [ws] ⇄ res ✗ plugin.approval.resolve 1ms errorCode=INVALID_REQUEST errorMessage=unknown or expired approval id conn=f7249f63…63d0 id=6ff525c5…bc3c
+2026-04-01T16:05:15.648+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:05:15.663+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:05:15.675+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 23 times")' ]
+2026-04-01T16:06:00.838+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:07:16.426+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:07:16.437+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:07:16.441+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 24 times")' ]
+2026-04-01T16:08:00.846+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:09:17.023+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:09:17.034+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:09:17.036+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 25 times")' ]
+2026-04-01T16:09:34.888+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:09:51.776+08:00 [ws] ⇄ res ✓ exec.approval.waitDecision 17075ms conn=fd28efe9…4994 id=4fd761c8…9647
+2026-04-01T16:09:51.828+08:00 exec approval followup dispatch failed (id=223f5cba-1374-4af7-81ed-ea829331a532): gateway closed (1008): pairing required
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:11:01.384+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:11:17.152+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:11:17.157+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:11:17.162+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 26 times")' ]
+2026-04-01T16:13:04.663+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:13:17.372+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:13:17.431+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:13:17.436+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 27 times")' ]
+2026-04-01T16:14:55.538+08:00 [gateway] signal SIGTERM received
+2026-04-01T16:14:55.543+08:00 [gateway] received SIGTERM; shutting down
+2026-04-01T16:14:55.659+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-01T16:14:55.660+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-01T16:14:55.663+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-01T16:14:55.685+08:00 exec approval followup dispatch failed (id=162e8b41-d975-4548-81a7-350664e7ad42): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.692+08:00 exec approval followup dispatch failed (id=ef7ccea4-263d-4cc8-b239-2f713f58abbb): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.694+08:00 exec approval followup dispatch failed (id=9caeb966-17ab-4180-bd57-d30be0221d15): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.697+08:00 exec approval followup dispatch failed (id=6fc8416a-65d8-4b99-b69c-f4ce2a9214e9): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.698+08:00 exec approval followup dispatch failed (id=bdbc6b8a-f6df-417e-a3f8-2639043a598a): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.700+08:00 exec approval followup dispatch failed (id=478a8bea-addc-4dec-b865-ec17453c409e): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.702+08:00 exec approval followup dispatch failed (id=c42e939b-0dd1-4557-9fea-2682c0cd3c4a): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.705+08:00 exec approval followup dispatch failed (id=ba8f749c-9c7c-4315-9659-2fd6d8d40917): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.707+08:00 exec approval followup dispatch failed (id=44b10621-f21c-4803-aa40-cdf668081d25): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.709+08:00 exec approval followup dispatch failed (id=99d2b4de-d9d0-4c2e-bbe9-f7b6909592ed): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.714+08:00 exec approval followup dispatch failed (id=2fcd501f-16eb-40bc-9c86-a35be621104c): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.716+08:00 exec approval followup dispatch failed (id=de6af5e9-6036-4c90-b260-52148a9ce77a): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:55.718+08:00 exec approval followup dispatch failed (id=4b8674c7-8fa9-494a-b7d4-37e03edd15cf): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:14:58.291+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T16:14:58.292+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-01T16:14:58.293+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T16:14:58.294+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-01T16:14:58.295+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-01T16:14:58.355+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-01T16:14:58.425+08:00 [heartbeat] started
+2026-04-01T16:14:58.429+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-01T16:14:58.457+08:00 [gateway] agent model: minimax/MiniMax-M2.7
+2026-04-01T16:14:58.458+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 57091)
+2026-04-01T16:14:58.460+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-04-01.log
+2026-04-01T16:14:58.541+08:00 [info]: [ 'client ready' ]
+2026-04-01T16:14:58.587+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-01T16:15:01.045+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:15:07.485+08:00 [feishu] starting feishu[default] (mode: websocket)
+2026-04-01T16:15:07.488+08:00 [feishu] feishu[default]: bot open_id resolved: unknown
+2026-04-01T16:15:07.489+08:00 [feishu] feishu[default]: bot open_id unknown; starting background retry (delays: 60s, 120s, 300s, 600s, 900s)
+2026-04-01T16:15:07.490+08:00 [feishu] feishu[default]: requireMention group messages stay gated until bot identity recovery succeeds
+2026-04-01T16:15:07.494+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-01T16:15:07.501+08:00 [feishu] feishu[default]: starting WebSocket connection...
+2026-04-01T16:15:07.502+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-01T16:15:07.505+08:00 [feishu] feishu[default]: WebSocket client started
+2026-04-01T16:15:07.653+08:00 [ws] ⇄ res ✓ chat.history 6821ms conn=94d0399e…afc0 id=5396c74d…5b5a
+2026-04-01T16:15:07.748+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:15:07.750+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:15:07.751+08:00 [error]: [ '[ws]', 'connect failed' ]
+2026-04-01T16:15:07.753+08:00 [info]: [ '[ws]', 'reconnect' ]
+2026-04-01T16:15:07.754+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-01T16:15:22.167+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:15:22.175+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:15:22.179+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 1 times")' ]
+2026-04-01T16:15:39.253+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-01T16:15:39.256+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-01T16:15:39.256+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-01T16:15:39.257+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-01T16:15:39.258+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-01T16:16:03.161+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:17:22.347+08:00 [error]: [ '[ws]', 'code: 1000040346, system busy' ]
+2026-04-01T16:17:22.352+08:00 [error]: [
+  '[ws]',
+  "Cannot read properties of undefined (reading 'PingInterval')"
+]
+2026-04-01T16:17:22.359+08:00 [info]: [ 'ws', 'unable to connect to the server after trying 2 times")' ]
+2026-04-01T16:17:23.637+08:00 [error]: [
+  AxiosError: Request failed with status code 400
+      at settle (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/settle.js:20:7)
+      at IncomingMessage.handleStreamEnd (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/adapters/http.js:844:13)
+      at IncomingMessage.emit (node:events:519:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:90:21)
+      at Axios.request (/opt/homebrew/lib/node_modules/openclaw/node_modules/@larksuiteoapi/node-sdk/node_modules/axios/lib/core/Axios.js:46:41)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+    isAxiosError: true,
+    code: 'ERR_BAD_REQUEST',
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 10000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://open.feishu.cn/open-apis/bot/v3/info',
+      params: {},
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /open-apis/bot/v3/info HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: oapi-node-sdk/1.0.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: open.feishu.cn\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/open-apis/bot/v3/info',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'open.feishu.cn',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 65536,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    response: {
+      status: 400,
+      statusText: 'Bad Request',
+      headers: [Object [AxiosHeaders]],
+      config: [Object],
+      request: [ClientRequest],
+      data: [Object]
+    },
+    status: 400
+  }
+]
+2026-04-01T16:18:53.960+08:00 [gateway] signal SIGTERM received
+2026-04-01T16:18:53.964+08:00 [gateway] received SIGTERM; shutting down
+2026-04-01T16:18:54.081+08:00 [feishu] feishu[default]: abort signal received, stopping
+2026-04-01T16:18:54.082+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-01T16:18:54.085+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-01T16:18:54.098+08:00 exec approval followup dispatch failed (id=55a3402b-db35-42dc-b478-3f51a49cf459): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.101+08:00 exec approval followup dispatch failed (id=2e46b254-f1f5-48e5-88c5-e6b8f1aa7f44): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.103+08:00 exec approval followup dispatch failed (id=08d21d48-30ea-47bd-9ea4-cd3251fd9a7c): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.105+08:00 exec approval followup dispatch failed (id=8ee0d47b-3d17-47d2-bdef-649a306f163d): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.108+08:00 exec approval followup dispatch failed (id=680c0bb9-cc84-45f3-8b9f-92a6a777dd2c): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.110+08:00 exec approval followup dispatch failed (id=1e90c0bd-5d1d-4538-ada2-a40f2b230fa2): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.112+08:00 exec approval followup dispatch failed (id=2e5aa972-5b86-424a-b3e4-9e315af4d23a): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.114+08:00 exec approval followup dispatch failed (id=625bfea6-6d47-488b-ac09-1e5f5348aa4c): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.116+08:00 exec approval followup dispatch failed (id=378069a4-05e9-4cf1-b4c5-59a12597a58f): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.118+08:00 exec approval followup dispatch failed (id=2e271109-a8ca-4483-a54d-f2574417ca4d): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback
+2026-04-01T16:18:54.121+08:00 exec approval followup dispatch failed (id=01d33013-6f41-450a-80ef-be87e5f5be5a): gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/jeremyj_pc/.openclaw/openclaw.json
+Bind: loopback

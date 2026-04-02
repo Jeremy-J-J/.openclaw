@@ -1,0 +1,411 @@
+(node:18558) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:18:27.529+08:00 Config overwrite: /Users/jeremyj_pc/.openclaw/openclaw.json (sha256 1373ea8131685c157ad227097b822ce42c33a6c0ba8a06dae5d033822c690245 -> 8d7c8c795e99137582a16ff06bd536c1e062dda0a8cc97395ffc3214e30f5a75, backup=/Users/jeremyj_pc/.openclaw/openclaw.json.bak)
+2026-04-01T15:18:29.966+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:18:30.046+08:00 Port 18789 is already in use.
+2026-04-01T15:18:30.048+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:18:30.049+08:00 - Another process is listening on this port.
+2026-04-01T15:18:30.055+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:18:30.057+08:00 Tip: openclaw gateway stop
+2026-04-01T15:18:30.057+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:18634) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:18:35.583+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:18:35.679+08:00 Port 18789 is already in use.
+2026-04-01T15:18:35.681+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:18:35.682+08:00 - Another process is listening on this port.
+2026-04-01T15:18:35.689+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:18:35.690+08:00 Tip: openclaw gateway stop
+2026-04-01T15:18:35.691+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:18728) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:18:40.474+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:18:40.557+08:00 Port 18789 is already in use.
+2026-04-01T15:18:40.558+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:18:40.559+08:00 - Another process is listening on this port.
+2026-04-01T15:18:40.565+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:18:40.566+08:00 Tip: openclaw gateway stop
+2026-04-01T15:18:40.567+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:18802) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:18:46.289+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:18:46.361+08:00 Port 18789 is already in use.
+2026-04-01T15:18:46.363+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:18:46.364+08:00 - Another process is listening on this port.
+2026-04-01T15:18:46.436+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:18:46.438+08:00 Tip: openclaw gateway stop
+2026-04-01T15:18:46.439+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:18919) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:18:51.024+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:18:51.100+08:00 Port 18789 is already in use.
+2026-04-01T15:18:51.102+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:18:51.103+08:00 - Another process is listening on this port.
+2026-04-01T15:18:51.109+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:18:51.110+08:00 Tip: openclaw gateway stop
+2026-04-01T15:18:51.111+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:18992) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:18:55.578+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:18:55.657+08:00 Port 18789 is already in use.
+2026-04-01T15:18:55.659+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:18:55.660+08:00 - Another process is listening on this port.
+2026-04-01T15:18:55.667+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:18:55.668+08:00 Tip: openclaw gateway stop
+2026-04-01T15:18:55.669+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19080) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:00.170+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:00.245+08:00 Port 18789 is already in use.
+2026-04-01T15:19:00.246+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:00.247+08:00 - Another process is listening on this port.
+2026-04-01T15:19:00.255+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:00.256+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:00.256+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19170) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:04.723+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:04.792+08:00 Port 18789 is already in use.
+2026-04-01T15:19:04.793+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:04.794+08:00 - Another process is listening on this port.
+2026-04-01T15:19:04.805+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:04.806+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:04.807+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19253) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:09.237+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:09.316+08:00 Port 18789 is already in use.
+2026-04-01T15:19:09.318+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:09.319+08:00 - Another process is listening on this port.
+2026-04-01T15:19:09.326+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:09.327+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:09.328+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19334) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:13.764+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:13.841+08:00 Port 18789 is already in use.
+2026-04-01T15:19:13.843+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:13.844+08:00 - Another process is listening on this port.
+2026-04-01T15:19:13.851+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:13.852+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:13.853+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19441) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:18.265+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:18.347+08:00 Port 18789 is already in use.
+2026-04-01T15:19:18.348+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:18.349+08:00 - Another process is listening on this port.
+2026-04-01T15:19:18.358+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:18.359+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:18.360+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19550) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:22.749+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:22.834+08:00 Port 18789 is already in use.
+2026-04-01T15:19:22.836+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:22.838+08:00 - Another process is listening on this port.
+2026-04-01T15:19:22.845+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:22.846+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:22.847+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19633) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:27.281+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:27.358+08:00 Port 18789 is already in use.
+2026-04-01T15:19:27.360+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:27.361+08:00 - Another process is listening on this port.
+2026-04-01T15:19:27.368+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:27.370+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:27.371+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19717) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:31.774+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:31.872+08:00 Port 18789 is already in use.
+2026-04-01T15:19:31.873+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:31.874+08:00 - Another process is listening on this port.
+2026-04-01T15:19:31.894+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:31.896+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:31.897+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19805) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:36.399+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:36.470+08:00 Port 18789 is already in use.
+2026-04-01T15:19:36.472+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:36.473+08:00 - Another process is listening on this port.
+2026-04-01T15:19:36.489+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:36.490+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:36.490+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19884) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:40.954+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:41.042+08:00 Port 18789 is already in use.
+2026-04-01T15:19:41.043+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:41.044+08:00 - Another process is listening on this port.
+2026-04-01T15:19:41.058+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:41.060+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:41.061+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:19956) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:45.722+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:45.794+08:00 Port 18789 is already in use.
+2026-04-01T15:19:45.796+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:45.797+08:00 - Another process is listening on this port.
+2026-04-01T15:19:45.804+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:45.805+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:45.806+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20062) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:50.548+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:50.618+08:00 Port 18789 is already in use.
+2026-04-01T15:19:50.619+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:50.620+08:00 - Another process is listening on this port.
+2026-04-01T15:19:50.626+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:50.628+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:50.629+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20153) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:55.065+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:55.134+08:00 Port 18789 is already in use.
+2026-04-01T15:19:55.135+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:55.136+08:00 - Another process is listening on this port.
+2026-04-01T15:19:55.144+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:55.145+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:55.146+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20230) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:19:59.562+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:19:59.631+08:00 Port 18789 is already in use.
+2026-04-01T15:19:59.633+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:19:59.633+08:00 - Another process is listening on this port.
+2026-04-01T15:19:59.641+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:19:59.642+08:00 Tip: openclaw gateway stop
+2026-04-01T15:19:59.643+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20301) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:04.069+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:04.141+08:00 Port 18789 is already in use.
+2026-04-01T15:20:04.143+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:04.144+08:00 - Another process is listening on this port.
+2026-04-01T15:20:04.151+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:04.153+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:04.153+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20382) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:08.609+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:08.686+08:00 Port 18789 is already in use.
+2026-04-01T15:20:08.688+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:08.689+08:00 - Another process is listening on this port.
+2026-04-01T15:20:08.695+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:08.696+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:08.697+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20456) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:13.128+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:13.224+08:00 Port 18789 is already in use.
+2026-04-01T15:20:13.226+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:13.227+08:00 - Another process is listening on this port.
+2026-04-01T15:20:13.234+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:13.236+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:13.236+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20529) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:17.663+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:17.757+08:00 Port 18789 is already in use.
+2026-04-01T15:20:17.759+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:17.760+08:00 - Another process is listening on this port.
+2026-04-01T15:20:17.768+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:17.769+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:17.769+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20621) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:22.229+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:22.296+08:00 Port 18789 is already in use.
+2026-04-01T15:20:22.298+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:22.299+08:00 - Another process is listening on this port.
+2026-04-01T15:20:22.306+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:22.307+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:22.308+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20710) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:26.743+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:27.047+08:00 Port 18789 is already in use.
+2026-04-01T15:20:27.048+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:27.049+08:00 - Another process is listening on this port.
+2026-04-01T15:20:27.058+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:27.059+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:27.061+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20783) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:31.735+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:31.832+08:00 Port 18789 is already in use.
+2026-04-01T15:20:31.835+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:31.836+08:00 - Another process is listening on this port.
+2026-04-01T15:20:31.851+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:31.854+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:31.857+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20857) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:36.716+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:36.797+08:00 Port 18789 is already in use.
+2026-04-01T15:20:36.799+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:36.800+08:00 - Another process is listening on this port.
+2026-04-01T15:20:36.813+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:36.814+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:36.815+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:20953) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:41.281+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:41.366+08:00 Port 18789 is already in use.
+2026-04-01T15:20:41.368+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:41.369+08:00 - Another process is listening on this port.
+2026-04-01T15:20:41.378+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:41.379+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:41.380+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:21025) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:45.912+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:46.023+08:00 Port 18789 is already in use.
+2026-04-01T15:20:46.024+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:46.025+08:00 - Another process is listening on this port.
+2026-04-01T15:20:46.034+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:46.036+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:46.036+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:21100) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:51.079+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:51.166+08:00 Port 18789 is already in use.
+2026-04-01T15:20:51.168+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:51.169+08:00 - Another process is listening on this port.
+2026-04-01T15:20:51.190+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:51.191+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:51.192+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:21174) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:20:55.729+08:00 Gateway failed to start: another gateway instance is already listening on ws://127.0.0.1:18789
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-04-01T15:20:55.806+08:00 Port 18789 is already in use.
+2026-04-01T15:20:55.808+08:00 - pid 1906 jeremyj_pc: /Users/jeremyj_pc/Downloads/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/jeremyj_pc/Library/Application Support/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,16168037867995739572,4875861392730749441,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833 (127.0.0.1:18789)
+2026-04-01T15:20:55.809+08:00 - Another process is listening on this port.
+2026-04-01T15:20:55.821+08:00 Gateway service appears loaded. Stop it first.
+2026-04-01T15:20:55.822+08:00 Tip: openclaw gateway stop
+2026-04-01T15:20:55.823+08:00 Or: launchctl bootout gui/$UID/ai.openclaw.gateway
+(node:21261) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T15:21:00.500+08:00 [gateway] security warning: dangerous config flags enabled: gateway.controlUi.allowInsecureAuth=true. Run `openclaw security audit`.
+2026-04-01T15:21:03.605+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:21:03.650+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:21:06.818+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=macpro (OpenClaw) (2)._openclaw-gw._tcp.local. host=openclaw-(2).local. port=18789 state=probing)
+2026-04-01T15:21:10.400+08:00 [bonjour] gateway name conflict resolved; newName="macpro (OpenClaw) (4)"
+2026-04-01T15:21:10.406+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-04-01T15:22:03.843+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:22:03.922+08:00 [feishu] feishu[default]: bot identity background retry 1/5 failed; next attempt in 120s
+2026-04-01T15:24:00.637+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:24:03.933+08:00 [feishu] feishu[default]: bot identity background retry 2/5 failed; next attempt in 300s
+2026-04-01T15:26:00.632+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:26:03.650+08:00 [tools] web_search failed: fetch failed raw_params={"query":"self-improving-agent-cn clawhub.ai"}
+2026-04-01T15:27:34.713+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:28:04.172+08:00 [gateway] security audit: device access upgrade requested reason=scope-upgrade device=bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.approvals scopesTo=operator.write client=gateway-client conn=f2051b80-4b9a-43bd-9097-e8598ab81c87
+2026-04-01T15:28:04.194+08:00 gateway connect failed: GatewayClientRequestError: pairing required
+2026-04-01T15:28:04.204+08:00 [ws] closed before connect conn=f2051b80-4b9a-43bd-9097-e8598ab81c87 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=pairing required
+2026-04-01T15:29:01.083+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:29:03.942+08:00 [feishu] feishu[default]: bot identity background retry 3/5 failed; next attempt in 600s
+2026-04-01T15:30:22.020+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:31:02.709+08:00 [gateway] security audit: device access upgrade requested reason=scope-upgrade device=bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.approvals scopesTo=operator.write client=gateway-client conn=1e04434e-2a97-49aa-9676-d2f15db75bb2
+2026-04-01T15:31:02.728+08:00 gateway connect failed: GatewayClientRequestError: pairing required
+2026-04-01T15:31:02.737+08:00 [ws] closed before connect conn=1e04434e-2a97-49aa-9676-d2f15db75bb2 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=pairing required
+2026-04-01T15:31:03.284+08:00 [gateway] security audit: device access upgrade requested reason=scope-upgrade device=bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.approvals scopesTo=operator.write client=gateway-client conn=9e2e8b00-06dc-4266-822e-f34b021edf1a
+2026-04-01T15:31:03.302+08:00 gateway connect failed: GatewayClientRequestError: pairing required
+2026-04-01T15:31:03.309+08:00 [ws] closed before connect conn=9e2e8b00-06dc-4266-822e-f34b021edf1a remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=pairing required
+2026-04-01T15:32:01.259+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:34:01.146+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:36:01.173+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:38:01.156+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:39:04.064+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:39:04.166+08:00 [feishu] feishu[default]: bot identity background retry 4/5 failed; next attempt in 900s
+2026-04-01T15:41:01.389+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:43:02.118+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:45:00.905+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:46:22.744+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:47:09.908+08:00 [gateway] security audit: device access upgrade requested reason=scope-upgrade device=bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.approvals scopesTo=operator.write client=gateway-client conn=27fecd63-2e07-4bbe-a051-2d03b66d5e60
+2026-04-01T15:47:09.921+08:00 gateway connect failed: GatewayClientRequestError: pairing required
+2026-04-01T15:47:09.927+08:00 [ws] closed before connect conn=27fecd63-2e07-4bbe-a051-2d03b66d5e60 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=pairing required
+2026-04-01T15:48:01.283+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:50:01.195+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:52:01.397+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:54:01.836+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:54:04.178+08:00 [feishu] feishu[default]: bot identity background retry 5/5 failed
+2026-04-01T15:54:04.193+08:00 [feishu] feishu[default]: bot identity background retry exhausted; requireMention group messages may be skipped until restart
+2026-04-01T15:56:01.215+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:58:01.238+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T15:59:32.378+08:00 [agent/embedded] embedded run agent end: runId=c3501e15-f3ed-4be1-8d4c-335c02d6b46a isError=true model=MiniMax-M2.7 provider=minimax error=The AI service is temporarily overloaded. Please try again in a moment. rawError=529 {"type":"error","error":{"type":"overloaded_error","message":"当前服务集群负载较高，请稍后重试，感谢您的耐心等待。 (2064)"},"request_id":"sha256:fce0457c75e1"}
+2026-04-01T15:59:48.941+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:01:00.716+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:03:01.591+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:04:05.226+08:00 [gateway] security audit: device access upgrade requested reason=scope-upgrade device=bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.approvals scopesTo=operator.write client=gateway-client conn=e09389ef-296c-408a-a7e5-ad8a09542553
+2026-04-01T16:04:05.244+08:00 gateway connect failed: GatewayClientRequestError: pairing required
+2026-04-01T16:04:05.251+08:00 [ws] closed before connect conn=e09389ef-296c-408a-a7e5-ad8a09542553 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=pairing required
+2026-04-01T16:04:05.283+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:04:34.662+08:00 [memory] fts unavailable: no such module: fts5
+2026-04-01T16:04:35.337+08:00 [memory] fts unavailable: no such module: fts5
+2026-04-01T16:04:35.349+08:00 [memory] fts unavailable: no such module: fts5
+2026-04-01T16:06:00.734+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:08:00.763+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:09:34.785+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:09:51.808+08:00 [gateway] security audit: device access upgrade requested reason=scope-upgrade device=bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.approvals scopesTo=operator.write client=gateway-client conn=d92658e2-3b74-44bd-a992-58dc7daf2586
+2026-04-01T16:09:51.826+08:00 gateway connect failed: GatewayClientRequestError: pairing required
+2026-04-01T16:09:51.830+08:00 [ws] closed before connect conn=d92658e2-3b74-44bd-a992-58dc7daf2586 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1008 reason=pairing required
+2026-04-01T16:11:01.288+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:13:04.577+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:13:46.700+08:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/jeremyj_pc/.openclaw/openclaw.yaml' raw_params={"path":"/Users/jeremyj_pc/.openclaw/openclaw.yaml"}
+(node:57091) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-01T16:14:58.461+08:00 [gateway] security warning: dangerous config flags enabled: gateway.controlUi.allowInsecureAuth=true. Run `openclaw security audit`.
+2026-04-01T16:15:00.938+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:15:03.416+08:00 [bonjour] watchdog detected non-announced service; attempting re-advertise (gateway fqdn=macpro (OpenClaw) (3)._openclaw-gw._tcp.local. host=openclaw-(3).local. port=18789 state=probing)
+2026-04-01T16:15:06.001+08:00 [bonjour] gateway name conflict resolved; newName="macpro (OpenClaw) (4)"
+2026-04-01T16:15:06.002+08:00 [bonjour] gateway hostname conflict resolved; newHostname="openclaw-(4)"
+2026-04-01T16:16:00.484+08:00 [tools] read failed: ENOENT: no such file or directory, access '/opt/homebrew/lib/node_modules/openclaw/docs/configuration.md' raw_params={"path":"/opt/homebrew/lib/node_modules/openclaw/docs/configuration.md"}
+2026-04-01T16:16:03.086+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:16:07.502+08:00 [feishu] feishu[default]: bot identity background retry 1/5 failed; next attempt in 120s
+2026-04-01T16:16:31.897+08:00 [tools] read failed: EISDIR: illegal operation on a directory, read raw_params={"path":"/opt/homebrew/lib/node_modules/openclaw/docs/reference"}
+2026-04-01T16:17:21.264+08:00 [tools] read failed: ENOENT: no such file or directory, access '/opt/homebrew/lib/node_modules/openclaw/docs/gateway.md' raw_params={"path":"/opt/homebrew/lib/node_modules/openclaw/docs/gateway.md"}
+2026-04-01T16:17:23.558+08:00 [warn]: [ 'failed to obtain token' ]
+2026-04-01T16:17:57.837+08:00 [tools] exec failed: elevated is not available right now (runtime=direct).
+Failing gates: allowFrom (tools.elevated.allowFrom.<provider> / agents.list[].tools.elevated.allowFrom.<provider>)
+Context: provider=webchat session=agent:main:tui-b6038602-ca14-4aae-8aa6-47ae7fe348b8
+Fix-it keys:
+- tools.elevated.enabled
+- tools.elevated.allowFrom.<provider>
+- agents.list[].tools.elevated.enabled
+- agents.list[].tools.elevated.allowFrom.<provider> raw_params={"command":"ls ~/.openclaw/workspace/skills/","elevated":true}
+2026-04-01T16:18:07.508+08:00 [feishu] feishu[default]: bot identity background retry 2/5 failed; next attempt in 300s

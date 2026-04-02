@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/Users/jeremyj_pc/.openclaw/exec-approvals.sock",
+    "token": "0UtGrfSeajDB9DH_hf6EsasWDXUU1RVI"
+  },
+  "defaults": {},
+  "agents": {
+    "main": {
+      "allowlist": [
+        {
+          "id": "fd9b4e2f-6a66-4511-942d-3c3933b3d067",
+          "pattern": "/usr/bin/curl",
+          "lastUsedAt": 1775032882213
+        },
+        {
+          "id": "c058871c-a312-4060-8adc-4ea879f58c0a",
+          "pattern": "/usr/bin/ssh",
+          "lastUsedAt": 1775119143814,
+          "lastUsedCommand": "ssh -p 30669 root@221.12.22.187 'echo \"登录成功\"'",
+          "lastResolvedPath": "/usr/bin/ssh"
+        },
+        {
+          "id": "a7f04d47-0e7d-4797-822b-6b7691fc81ed",
+          "pattern": "/usr/bin/which",
+          "lastUsedAt": 1775115136834
+        },
+        {
+          "id": "c9e1dfa1-0d55-4c63-a784-b26dba89eafe",
+          "pattern": "/bin/ls",
+          "lastUsedAt": 1775117683557,
+          "lastUsedCommand": "ls ~/.openclaw/workspace/skills/ssh-essentials/",
+          "lastResolvedPath": "/bin/ls"
+        },
+        {
+          "id": "260f5163-c0ca-4223-bf28-d117f32ab3e2",
+          "pattern": "/usr/bin/grep",
+          "lastUsedAt": 1775117571430,
+          "lastUsedCommand": "ls -la ~/.openclaw/workspace/skills/ | grep -i ssh",
+          "lastResolvedPath": "/bin/ls"
+        },
+        {
+          "id": "ebf76151-f34e-48fc-b67d-246b21da3d66",
+          "pattern": "/opt/homebrew/bin/clawhub",
+          "lastUsedAt": 1775117679452,
+          "lastUsedCommand": "clawhub list",
+          "lastResolvedPath": "/opt/homebrew/bin/clawhub"
+        },
+        {
+          "id": "b01b3d56-ed6c-41ab-a02e-117876e22e4b",
+          "pattern": "/usr/bin/cd",
+          "lastUsedAt": 1775118413861
+        }
+      ]
+    },
+    "*": {
+      "allowlist": [
+        {
+          "pattern": "*/ssh",
+          "lastUsedAt": 1775111796811,
+          "id": "2b30cf69-2098-4103-a766-bcb26336e82d"
+        }
+      ]
+    },
+    "dev": {
+      "allowlist": [
+        {
+          "id": "d007a9d8-ad3b-4d27-a9c2-e01b141a32e1",
+          "pattern": "/usr/bin/ssh",
+          "lastUsedAt": 1775120680815,
+          "lastUsedCommand": "ssh -p 30669 root@221.12.22.187 'for dir in /C20545/jeremyj/pro/cursor-agent/generated_scenarios/*/; do folder=$(basename \"$dir\"); json_count=$(ls \"$dir\"*.json 2>/dev/null | wc -l); mp4_count=$(ls \"$dir\"*.mp4 2>/dev/null | wc -l); osc_count=$(ls \"$dir\"*.osc 2>/dev/null | wc -l); conv_count=$(ls \"$dir\"conversation_history.json 2>/dev/null | wc -l); echo \"=== $folder ===\"; echo \"  .json: $json_count\"; echo \"  .mp4: $mp4_count\"; echo \"  .osc: $osc_count\"; echo \"  conversation_history.json: $conv_count\"; done'",
+          "lastResolvedPath": "/usr/bin/ssh"
+        }
+      ]
+    },
+    "product": {
+      "allowlist": [
+        {
+          "id": "c5286a2b-64c8-4d91-bf01-f4e96b41aa6b",
+          "pattern": "/bin/ls",
+          "lastUsedAt": 1775123805945,
+          "lastUsedCommand": "ls -la /Users/jeremyj_pc/.openclaw/workspace/skills/",
+          "lastResolvedPath": "/bin/ls"
+        },
+        {
+          "id": "22f4a6b1-4212-4603-b112-7e6660b52893",
+          "pattern": "/bin/echo",
+          "lastUsedAt": 1775123789435
+        }
+      ]
+    }
+  }
+}

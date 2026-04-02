@@ -1,0 +1,18 @@
+exec:
+  security: full
+  ask: off
+
+tools:
+  elevated:
+    enabled: true
+    allowFrom:
+      - webchat
+
+agents:
+  list:
+    - id: main
+      tools:
+        elevated:
+          enabled: true
+          allowFrom:
+            - webchat

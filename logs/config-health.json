@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "/Users/jeremyj_pc/.openclaw/openclaw.json": {
+      "lastKnownGood": {
+        "hash": "fdcf9f53ba970d5a0018e5289b80a989f5cde38cea6c231a449d95d82132a071",
+        "bytes": 3436,
+        "mtimeMs": 1775123586207.3684,
+        "ctimeMs": 1775123586207.5088,
+        "dev": "16777232",
+        "ino": "346697906",
+        "mode": 384,
+        "nlink": 1,
+        "uid": 501,
+        "gid": 20,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-04-02T09:53:12.911Z"
+      },
+      "lastObservedSuspiciousSignature": null
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "105e4b3b-36cd-4b48-9d71-715e7b247902": {
+    "requestId": "105e4b3b-36cd-4b48-9d71-715e7b247902",
+    "deviceId": "bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d",
+    "publicKey": "GZ_5qCmtC5_l1GwkJWwcO3iX2R808sPewwCoDd_6qvI",
+    "displayName": "agent",
+    "platform": "darwin",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.write"
+    ],
+    "silent": false,
+    "isRepair": true,
+    "ts": 1775123789454
+  }
+}

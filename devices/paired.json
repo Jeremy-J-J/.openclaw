@@ -1,0 +1,32 @@
+{
+  "bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d": {
+    "deviceId": "bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d",
+    "publicKey": "GZ_5qCmtC5_l1GwkJWwcO3iX2R808sPewwCoDd_6qvI",
+    "displayName": "Chat approval (webchat:openclaw-tui)",
+    "platform": "darwin",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.approvals"
+    ],
+    "approvedScopes": [
+      "operator.approvals"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "5-2cZZ7zBcBRppxiNqtmZFLldwrXSCj4U-M515CMjpo",
+        "role": "operator",
+        "scopes": [
+          "operator.approvals"
+        ],
+        "createdAtMs": 1775028372276
+      }
+    },
+    "createdAtMs": 1775028372276,
+    "approvedAtMs": 1775028372276
+  }
+}

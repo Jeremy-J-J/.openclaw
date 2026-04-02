@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent-cn": {
+      "version": "1.0.0",
+      "installedAt": 1775028663268
+    },
+    "github-explorer": {
+      "version": "1.0.0",
+      "installedAt": 1775030757794
+    },
+    "paper-parse": {
+      "version": "1.0.0",
+      "installedAt": 1775030782440
+    },
+    "find-skill": {
+      "version": "1.0.0",
+      "installedAt": 1775030788878
+    },
+    "ssh-essentials": {
+      "version": "1.0.0",
+      "installedAt": 1775117463218
+    },
+    "agent-browser-clawdbot": {
+      "version": "0.1.0",
+      "installedAt": 1775122001457
+    }
+  }
+}
