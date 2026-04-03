@@ -117,6 +117,10 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+### 🔒 Exec 审批最佳实践
+
+当需要用户审批 exec 命令时（包括 `/approve` 请求），必须列出具体要执行的命令内容，让用户知道他们在审批什么。
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**

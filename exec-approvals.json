@@ -67,9 +67,35 @@
         {
           "id": "d007a9d8-ad3b-4d27-a9c2-e01b141a32e1",
           "pattern": "/usr/bin/ssh",
-          "lastUsedAt": 1775120680815,
-          "lastUsedCommand": "ssh -p 30669 root@221.12.22.187 'for dir in /C20545/jeremyj/pro/cursor-agent/generated_scenarios/*/; do folder=$(basename \"$dir\"); json_count=$(ls \"$dir\"*.json 2>/dev/null | wc -l); mp4_count=$(ls \"$dir\"*.mp4 2>/dev/null | wc -l); osc_count=$(ls \"$dir\"*.osc 2>/dev/null | wc -l); conv_count=$(ls \"$dir\"conversation_history.json 2>/dev/null | wc -l); echo \"=== $folder ===\"; echo \"  .json: $json_count\"; echo \"  .mp4: $mp4_count\"; echo \"  .osc: $osc_count\"; echo \"  conversation_history.json: $conv_count\"; done'",
+          "lastUsedAt": 1775207022674,
+          "lastUsedCommand": "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p 30669 root@221.12.22.187 'ls /C20545/jeremyj/pro/cursor-agent/generated_scenarios/ | while read d; do echo \"=== $d ===\" && ls \"/C20545/jeremyj/pro/cursor-agent/generated_scenarios/$d/\"; done'",
           "lastResolvedPath": "/usr/bin/ssh"
+        },
+        {
+          "id": "c0d8ff59-47e7-4068-872d-822b68e94900",
+          "pattern": "/bin/chmod",
+          "lastUsedAt": 1775197855586
+        },
+        {
+          "id": "5ab53218-4237-4686-adfe-ecec1c0313a4",
+          "pattern": "/opt/homebrew/bin/openclaw",
+          "lastUsedAt": 1775198252708,
+          "lastUsedCommand": "openclaw gateway status",
+          "lastResolvedPath": "/opt/homebrew/bin/openclaw"
+        },
+        {
+          "id": "b653d703-d18b-493c-a265-e8672ebc1b49",
+          "pattern": "/usr/bin/which",
+          "lastUsedAt": 1775199330294,
+          "lastUsedCommand": "which sshpass",
+          "lastResolvedPath": "/usr/bin/which"
+        },
+        {
+          "id": "ed0f7b1f-7ce2-498f-b707-ddc5edae5711",
+          "pattern": "/opt/homebrew/bin/sshpass",
+          "lastUsedAt": 1775199693228,
+          "lastUsedCommand": "sshpass -p 'zuser05' ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa user05@10.14.0.98 \"ls -la /home/user05/workspace\"",
+          "lastResolvedPath": "/opt/homebrew/bin/sshpass"
         }
       ]
     },
@@ -78,14 +104,24 @@
         {
           "id": "c5286a2b-64c8-4d91-bf01-f4e96b41aa6b",
           "pattern": "/bin/ls",
-          "lastUsedAt": 1775123805945,
-          "lastUsedCommand": "ls -la /Users/jeremyj_pc/.openclaw/workspace/skills/",
+          "lastUsedAt": 1775210133432,
+          "lastUsedCommand": "ls -la /Users/jeremyj_pc/.openclaw/",
           "lastResolvedPath": "/bin/ls"
         },
         {
           "id": "22f4a6b1-4212-4603-b112-7e6660b52893",
           "pattern": "/bin/echo",
           "lastUsedAt": 1775123789435
+        },
+        {
+          "id": "651d3bf6-2243-444d-bd8e-056b9a5f383e",
+          "pattern": "*/agent-browser",
+          "lastUsedAt": 1775214200
+        },
+        {
+          "id": "b9dd8511-25a0-4dbf-a489-43eb0e2f2f62",
+          "pattern": "*/which",
+          "lastUsedAt": 1775214200
         }
       ]
     }
