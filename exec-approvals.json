@@ -122,6 +122,13 @@
           "id": "b9dd8511-25a0-4dbf-a489-43eb0e2f2f62",
           "pattern": "*/which",
           "lastUsedAt": 1775214200
+        },
+        {
+          "id": "4deb9122-e3df-4bae-9aa9-7fef3debe578",
+          "pattern": "/opt/homebrew/bin/agent-browser",
+          "lastUsedAt": 1775253013272,
+          "lastUsedCommand": "agent-browser snapshot -i --json",
+          "lastResolvedPath": "/opt/homebrew/bin/agent-browser"
         }
       ]
     }

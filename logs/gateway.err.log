@@ -409,3 +409,317 @@ Fix-it keys:
 - agents.list[].tools.elevated.enabled
 - agents.list[].tools.elevated.allowFrom.<provider> raw_params={"command":"ls ~/.openclaw/workspace/skills/","elevated":true}
 2026-04-01T16:18:07.508+08:00 [feishu] feishu[default]: bot identity background retry 2/5 failed; next attempt in 300s
+(node:34316) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34612) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34691) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34730) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34762) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34785) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34819) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34851) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34886) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34920) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34952) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:34987) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35021) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35056) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35092) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35129) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35161) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35189) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35223) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35256) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35290) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35322) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35356) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35391) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35423) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.enabled: Invalid input: expected boolean, received string (allowed: true, false)
+  - browser.profiles.user.cdpPort: Invalid input: expected number, received string
+
+Run: openclaw doctor --fix
+(node:35457) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35494) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35526) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35564) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35617) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35649) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35671) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35708) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35740) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Config invalid
+File: ~/.openclaw/openclaw.json
+Problem:
+  - browser.profiles.user.cdpPort: Too big: expected number to be <=65535
+
+Run: openclaw doctor --fix
+(node:35775) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-04T05:32:13.473+08:00 Config overwrite: /Users/jeremyj_pc/.openclaw/openclaw.json (sha256 946df272686414d6af5d4088ccd501136c5c04eb945a60d07fe7fd5fce535cb5 -> d61ddfe53b4c382cd0f5fd152208fbe399926b31f3cac2cce9ddcbbce62150e0, backup=/Users/jeremyj_pc/.openclaw/openclaw.json.bak)
+2026-04-04T05:32:15.260+08:00 [gateway] security warning: dangerous config flags enabled: gateway.controlUi.allowInsecureAuth=true. Run `openclaw security audit`.
+(node:44723) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-04T05:49:44.313+08:00 [gateway] security warning: dangerous config flags enabled: gateway.controlUi.allowInsecureAuth=true. Run `openclaw security audit`.
+2026-04-04T05:51:14.952+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"open","profile":"user","url":"https://weibo.com"}
+2026-04-04T05:51:25.260+08:00 [tools] browser failed: timed out. Restart the OpenClaw gateway (OpenClaw.app menubar, or `openclaw gateway`). Do NOT retry the browser tool — it will keep failing. Use an alternative approach or inform the user that the browser is currently unavailable. raw_params={"action":"status","profile":"user"}
+2026-04-04T05:53:28.597+08:00 [memory] fts unavailable: no such module: fts5
+2026-04-04T05:53:30.639+08:00 [memory] search: no provider and FTS unavailable
+2026-04-04T05:53:31.579+08:00 [memory] fts unavailable: no such module: fts5
+2026-04-04T05:53:31.597+08:00 [memory] fts unavailable: no such module: fts5
+2026-04-04T05:53:41.326+08:00 [memory] search: no provider and FTS unavailable
+2026-04-04T05:53:43.445+08:00 [tools] read failed: ENOENT: no such file or directory, access '/Users/jeremyj_pc/.openclaw/workspace-product/MEMORY.md' raw_params={"path":"/Users/jeremyj_pc/.openclaw/workspace-product/MEMORY.md"}
+2026-04-04T05:53:53.471+08:00 [memory] fts unavailable: no such module: fts5
+2026-04-04T05:53:53.543+08:00 [memory] fts unavailable: no such module: fts5

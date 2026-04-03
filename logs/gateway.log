@@ -4370,3 +4370,167 @@ Gateway target: ws://127.0.0.1:18789
 Source: local loopback
 Config: /Users/jeremyj_pc/.openclaw/openclaw.json
 Bind: loopback
+2026-04-04T05:32:13.492+08:00 [gateway] auto-enabled plugins:
+- browser configured, enabled automatically.
+2026-04-04T05:32:14.522+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-04T05:32:14.523+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-04T05:32:14.525+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-04T05:32:14.526+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-04T05:32:14.528+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-04T05:32:14.586+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-04T05:32:15.215+08:00 [heartbeat] started
+2026-04-04T05:32:15.218+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-04T05:32:15.256+08:00 [gateway] agent model: minimax/MiniMax-M2.7
+2026-04-04T05:32:15.257+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 35775)
+2026-04-04T05:32:15.259+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-04-04.log
+2026-04-04T05:32:15.283+08:00 [info]: [ 'client ready' ]
+2026-04-04T05:32:15.409+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-04T05:32:19.435+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-04T05:32:19.515+08:00 [feishu] starting feishu[dev_bajie] (mode: websocket)
+2026-04-04T05:32:19.517+08:00 [info]: [ 'client ready' ]
+2026-04-04T05:32:19.519+08:00 [feishu] starting feishu[main] (mode: websocket)
+2026-04-04T05:32:19.521+08:00 [feishu] starting feishu[product_wukong] (mode: websocket)
+2026-04-04T05:32:19.523+08:00 [info]: [ 'client ready' ]
+2026-04-04T05:32:19.702+08:00 [feishu] feishu[main]: bot open_id resolved: ou_636eb2b6e24de7662d6d53b7e579ea21
+2026-04-04T05:32:19.705+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-04T05:32:19.716+08:00 [feishu] feishu[main]: starting WebSocket connection...
+2026-04-04T05:32:19.719+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-04T05:32:19.725+08:00 [feishu] feishu[main]: WebSocket client started
+2026-04-04T05:32:19.856+08:00 [feishu] feishu[dev_bajie]: bot open_id resolved: ou_f6a04da54d79de160dc03bb4f5fcc903
+2026-04-04T05:32:19.858+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-04T05:32:19.860+08:00 [feishu] feishu[dev_bajie]: starting WebSocket connection...
+2026-04-04T05:32:19.861+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-04T05:32:19.863+08:00 [feishu] feishu[dev_bajie]: WebSocket client started
+2026-04-04T05:32:20.876+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-04T05:32:20.880+08:00 [feishu] feishu[product_wukong]: bot open_id resolved: ou_32e57770854f7850806b66e7a652b292
+2026-04-04T05:32:20.902+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-04T05:32:20.904+08:00 [feishu] feishu[product_wukong]: starting WebSocket connection...
+2026-04-04T05:32:20.905+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-04T05:32:20.907+08:00 [feishu] feishu[product_wukong]: WebSocket client started
+2026-04-04T05:32:21.161+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-04T05:32:21.173+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-04T05:32:28.732+08:00 [ws] ⇄ res ✓ chat.history 1888ms conn=bdb30373…2b9f id=98e9248e…4838
+2026-04-04T05:32:28.757+08:00 [ws] ⇄ res ✓ chat.history 251ms conn=626ca263…8e83 id=5d3b8af5…1630
+2026-04-04T05:33:08.871+08:00 [gateway] signal SIGTERM received
+2026-04-04T05:33:08.875+08:00 [gateway] received SIGTERM; shutting down
+2026-04-04T05:33:08.988+08:00 [feishu] feishu[dev_bajie]: abort signal received, stopping
+2026-04-04T05:33:08.990+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-04T05:33:08.991+08:00 [feishu] feishu[main]: abort signal received, stopping
+2026-04-04T05:33:08.992+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-04T05:33:08.995+08:00 [feishu] feishu[product_wukong]: abort signal received, stopping
+2026-04-04T05:33:08.995+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-04T05:33:08.999+08:00 [gmail-watcher] gmail watcher stopped
+2026-04-04T05:49:43.890+08:00 [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-04T05:49:43.892+08:00 [gateway] feishu_chat: Registered feishu_chat tool
+2026-04-04T05:49:43.893+08:00 [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-04-04T05:49:43.895+08:00 [gateway] feishu_drive: Registered feishu_drive tool
+2026-04-04T05:49:43.897+08:00 [gateway] feishu_bitable: Registered bitable tools
+2026-04-04T05:49:43.987+08:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/jeremyj_pc/.openclaw/canvas)
+2026-04-04T05:49:44.276+08:00 [heartbeat] started
+2026-04-04T05:49:44.278+08:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-04-04T05:49:44.308+08:00 [gateway] agent model: minimax/MiniMax-M2.7
+2026-04-04T05:49:44.310+08:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 44723)
+2026-04-04T05:49:44.311+08:00 [gateway] log file: /tmp/openclaw/openclaw-2026-04-04.log
+2026-04-04T05:49:44.334+08:00 [info]: [ 'client ready' ]
+2026-04-04T05:49:44.460+08:00 [hooks] loaded 4 internal hook handlers
+2026-04-04T05:49:48.802+08:00 [info]: [ 'client ready' ]
+2026-04-04T05:49:48.826+08:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-04-04T05:49:48.842+08:00 [feishu] starting feishu[dev_bajie] (mode: websocket)
+2026-04-04T05:49:48.844+08:00 [feishu] starting feishu[main] (mode: websocket)
+2026-04-04T05:49:48.845+08:00 [feishu] starting feishu[product_wukong] (mode: websocket)
+2026-04-04T05:49:48.847+08:00 [info]: [ 'client ready' ]
+2026-04-04T05:49:48.853+08:00 [feishu] feishu[main]: bot open_id resolved: ou_636eb2b6e24de7662d6d53b7e579ea21
+2026-04-04T05:49:48.900+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-04T05:49:48.901+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-04T05:49:48.902+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-04T05:49:48.904+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-04T05:49:48.905+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-04T05:49:49.029+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-04T05:49:49.036+08:00 [feishu] feishu[main]: starting WebSocket connection...
+2026-04-04T05:49:49.037+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-04T05:49:49.041+08:00 [feishu] feishu[main]: WebSocket client started
+2026-04-04T05:49:51.889+08:00 [ws] ⇄ res ✓ chat.history 2810ms conn=80e5ef22…278a id=39445554…20f3
+2026-04-04T05:49:51.937+08:00 [feishu] feishu[product_wukong]: bot open_id resolved: ou_32e57770854f7850806b66e7a652b292
+2026-04-04T05:49:51.948+08:00 [feishu] feishu[dev_bajie]: bot open_id resolved: ou_f6a04da54d79de160dc03bb4f5fcc903
+2026-04-04T05:49:51.960+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-04T05:49:51.962+08:00 [feishu] feishu[product_wukong]: starting WebSocket connection...
+2026-04-04T05:49:51.963+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-04T05:49:51.965+08:00 [feishu] feishu[product_wukong]: WebSocket client started
+2026-04-04T05:49:51.966+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-04-04T05:49:51.967+08:00 [feishu] feishu[dev_bajie]: starting WebSocket connection...
+2026-04-04T05:49:51.968+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-04-04T05:49:51.970+08:00 [feishu] feishu[dev_bajie]: WebSocket client started
+2026-04-04T05:49:52.040+08:00 [ws] ⇄ res ✓ sessions.list 61ms conn=6ac20618…a8f8 id=2e11ec31…b646
+2026-04-04T05:49:52.146+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-04T05:49:52.202+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-04T05:49:52.225+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-04-04T05:49:55.437+08:00 [ws] ⇄ res ✓ chat.send 96ms runId=5eebd8e8-fd85-47ae-a68d-bb1f5e858622 conn=80e5ef22…278a id=0eb81a97…7ac7
+2026-04-04T05:49:57.535+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-04T05:49:57.562+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-04T05:49:57.563+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-04T05:49:57.564+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-04T05:49:57.565+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-04T05:50:57.462+08:00 [browser/service] Browser control service ready (profiles=2)
+2026-04-04T05:51:32.936+08:00 [ws] ⇄ res ✓ sessions.list 1232ms conn=80e5ef22…278a id=e969cdab…c0f8
+2026-04-04T05:52:34.118+08:00 [ws] ⇄ res ✓ chat.send 193ms runId=a0a8e180-7109-4695-a3bf-6f5d0688e52b conn=80e5ef22…278a id=16b48b12…5804
+2026-04-04T05:53:07.408+08:00 [ws] ⇄ res ✓ sessions.list 100ms conn=80e5ef22…278a id=3b170897…11d4

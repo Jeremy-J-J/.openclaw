@@ -10,7 +10,24 @@
       "model": {
         "primary": "minimax/MiniMax-M2.7"
       }
-    }
+    },
+    "list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "dev",
+        "name": "dev",
+        "workspace": "/Users/jeremyj_pc/.openclaw/workspace-dev",
+        "agentDir": "/Users/jeremyj_pc/.openclaw/agents/dev/agent"
+      },
+      {
+        "id": "product",
+        "name": "product",
+        "workspace": "/Users/jeremyj_pc/.openclaw/workspace-product",
+        "agentDir": "/Users/jeremyj_pc/.openclaw/agents/product/agent"
+      }
+    ]
   },
   "gateway": {
     "mode": "local",
@@ -40,11 +57,22 @@
       ]
     }
   },
+  "browser": {
+    "enabled": true,
+    "defaultProfile": "user",
+    "profiles": {
+      "user": {
+        "cdpPort": 9222,
+        "driver": "existing-session",
+        "color": "#ff5240"
+      }
+    }
+  },
   "session": {
     "dmScope": "per-channel-peer"
   },
   "tools": {
-    "profile": "coding"
+    "profile": "full"
   },
   "models": {
     "mode": "merge",
@@ -85,13 +113,42 @@
   "channels": {
     "feishu": {
       "enabled": true,
-      "appId": "cli_a9465e367db81bda",
-      "appSecret": "lo2VNNMbWcVDVBWT9Ee4DNHXKfe5t78J",
+      "defaultAccount": "main",
       "connectionMode": "websocket",
       "domain": "feishu",
-      "groupPolicy": "open"
+      "groupPolicy": "open",
+      "accounts": {
+        "main": {
+          "appId": "cli_a9465e367db81bda",
+          "appSecret": "lo2VNNMbWcVDVBWT9Ee4DNHXKfe5t78J"
+        },
+        "product_wukong": {
+          "appId": "cli_a9465bdd8efbdbef",
+          "appSecret": "nbxsPaDbSQMbsu0MTdIJ2c4kBVc3vPI3"
+        },
+        "dev_bajie": {
+          "appId": "cli_a94654ef6a3b9bd2",
+          "appSecret": "jtPEo2CunNezQvqIuf5AlhhfxQYqCuPC"
+        }
+      }
     }
   },
+  "bindings": [
+    {
+      "agentId": "product",
+      "match": {
+        "channel": "feishu",
+        "accountId": "product_wukong"
+      }
+    },
+    {
+      "agentId": "dev",
+      "match": {
+        "channel": "feishu",
+        "accountId": "dev_bajie"
+      }
+    }
+  ],
   "wizard": {
     "lastRunAt": "2026-04-01T07:18:24.191Z",
     "lastRunVersion": "2026.3.31",
@@ -100,7 +157,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.3.31",
-    "lastTouchedAt": "2026-04-01T07:18:27.527Z"
+    "lastTouchedAt": "2026-04-01T09:51:45.892Z"
   },
   "plugins": {
     "entries": {
