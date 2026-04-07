@@ -2,6 +2,15 @@
 
 ## 最佳实践
 
+### Chrome MCP 微信公众号后台账号切换
+- **难点**：左下角账号名称（"希望之雪"等）在 accessibility tree 中显示为纯文本 statictext，没有可点击的 ref，普通 click 无法触发
+- **解决方案**：用 JS evaluate 遍历所有元素，找到 textContent 匹配目标账号名的元素，调用 `.click()`
+- **完整流程**：
+  1. `browser(action=act, targetId=tabId, kind="evaluate", fn="...textContent 希望之雪...")` 点击账号文本 → 弹出账号菜单
+  2. 找到「切换账号」link ref → click → 弹出账号列表
+  3. JS evaluate 点击目标账号（如"极智视界"）→ 完成切换
+- **注意**：每次 snapshot 后 ref 会变化（递增），操作前需重新 snapshot 获取最新 ref
+
 ### Chrome MCP 浏览器操作
 - **使用场景**：需要操作用户已登录的 Chrome 浏览器（如抓取微博热搜等需要登录态的操作）
 - **操作流程**：
