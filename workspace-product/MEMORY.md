@@ -10,7 +10,10 @@
   3. 使用 `browser(action=open, profile="user", url="<url>")` 打开目标页面
   4. 用 `browser(action=snapshot, profile="user", targetId="<tabId>")` 获取页面快照
 - **关键**：必须用 `profile="user"` 才能操作用户已登录的 Chrome session
-- **常见问题**：若 status 超时需重启 OpenClaw gateway
+- **重要经验**：
+  - `status` 超时不代表浏览器不可用，**直接尝试 open/snapshot 往往能成功**
+  - 微博热搜地址：`https://weibo.com/hot/search`（需登录态，Chrome MCP 是最稳定方案）
+  - 若 status 持续超时，检查 Chrome 扩展是否安装并启用、远程调试端口是否开启
 
 ### 工具选择
 - **Chrome MCP（browser 工具）**：需要操作用户已登录状态、保留 cookies/session 的场景
