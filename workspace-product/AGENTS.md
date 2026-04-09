@@ -45,6 +45,13 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+## 文件夹规范
+
+- **memory/** — 每日笔记、长期记忆文件
+- **research-papers/** — 论文研读报告（每次研读产出归档至此）
+  - 文件命名：`{论文简称或主题}_研读报告.md`
+  - 图表可同步保存在 `research-papers/charts/` 子目录
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.

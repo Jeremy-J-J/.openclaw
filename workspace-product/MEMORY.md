@@ -65,3 +65,29 @@
 ### 工具选择
 - **Chrome MCP（browser 工具）**：需要操作用户已登录状态、保留 cookies/session 的场景
 - **agent-browser CLI**：独立 session、多 session 隔离、自动化流程
+
+### Paper-Parse 论文解析最佳实践（2026-04-09 总结）
+- **★★★ 图表必须提取原生图片，不可用整页截图 ★★★**：用 PyMuPDF(fitz) 从 PDF 中提取 `page.get_images()` 原生图片，而非用 `get_pixmap()` 截整页
+- **★★★ 图片缩放：宽度 > 900px 必须缩放 ★★★**：用 macOS 内置 `sips -Z 900` 命令；可一次处理多张：
+  ```bash
+  for f in charts/*.png; do
+    w=$(sips -g pixelWidth "$f" | grep pixelWidth | awk '{print $2}')
+    [ "$w" -gt 900 ] && sips -Z 900 "$f" --out "${f%.png}_resized.png"
+  done
+  ```
+- **★★★ 图床：使用 img402.dev ★★★**：curl 上传，免费无需认证，返回 `https://i.img402.dev/xxx.png` URL；保留7天
+  ```bash
+  curl -s -X POST https://img402.dev/api/free -F "image=@charts/xxx.png" | \
+    python3 -c "import sys,json; d=json.load(sys.stdin); print(d['url'])"
+  ```
+- **★★★ Markdown 图片居中显示写法 ★★★**：必须用 HTML 格式，不能用纯 Markdown：
+  ```html
+  <p align="center">
+  <img src="https://i.img402.dev/xxx.png" width="900"/>
+  </p>
+  <p align="center">图1：图片标题（来源：原论文 [图1号]）</p>
+  ```
+- **★★★ 图片标题格式 ★★★**：不加粗、不加星号，纯文本；不写"已缩放至XXXpx"等处理细节
+- **LaTeX 公式**：使用 `$$公式$$` 格式；需目标渲染器支持 MathJax/KaTeX；GitHub/GitLab 不支持
+- **全文提取**：优先 `pdftotext`；若不可用，用 PyMuPDF：`for page in doc: text += page.get_text()`
+- **相关 Skill**：`skills/paper-parse/SKILL.md`（2026-04-09 已同步更新）

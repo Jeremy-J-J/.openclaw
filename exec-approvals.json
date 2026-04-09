@@ -104,8 +104,8 @@
         {
           "id": "c5286a2b-64c8-4d91-bf01-f4e96b41aa6b",
           "pattern": "/bin/ls",
-          "lastUsedAt": 1775547763667,
-          "lastUsedCommand": "ls /Users/jeremyj_pc/.openclaw/workspace-product/skills/wechat-republish/",
+          "lastUsedAt": 1775727205136,
+          "lastUsedCommand": "ls -lh attention_is_all_you_need_charts/fig_p*.png",
           "lastResolvedPath": "/bin/ls"
         },
         {

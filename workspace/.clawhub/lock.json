@@ -32,6 +32,10 @@
     "summarizer": {
       "version": "1.0.0",
       "installedAt": 1775549282649
+    },
+    "github-image-hosting": {
+      "version": "1.0.0",
+      "installedAt": 1775726073169
     }
   }
 }

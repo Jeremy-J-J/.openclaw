@@ -20,18 +20,53 @@ description: 对用户提供的任何学术论文（PDF附件或URL）进行双�
 
 论文研读分四步执行：
 
-### Step 1: 通读论文全文
+### Step 1: 通读论文全文 & 提取图表
 
-使用 `pdftotext` 命令提取论文全文。对于URL来源的论文，先尝试下载PDF再提取。必须覆盖从摘要到参考文献的所有内容。
+#### 1.1 下载并提取全文
 
-**同时**，使用 `file` 工具的 `view` 动作查看并提取论文中的关键图表（PDF 页面或图像），保存到 `{论文简称}_charts/` 目录，命名格式：`{序号}_{原图描述}.png`，如 `01_architecture.png`、`02_main_results.png`。
+对于 URL 来源的论文，先下载 PDF，再使用 PyMuPDF 提取全文（`pdftotext` 命令通常不可用）：
+
+```python
+import fitz
+doc = fitz.open('paper.pdf')
+text = ''
+for page in doc:
+    text += page.get_text()
+with open('paper.txt', 'w') as f:
+    f.write(text)
+print(f'Extracted {len(text)} chars, {len(doc)} pages')
+doc.close()
+```
+
+#### 1.2 提取论文原生图表（关键！）
+
+**必须提取 PDF 中的原生图片**，而不是整页截图。使用 PyMuPDF 提取嵌入图片：
+
+```python
+import fitz, os
+
+os.makedirs('charts', exist_ok=True)
+doc = fitz.open('paper.pdf')
+
+for page_num in range(len(doc)):
+    page = doc[page_num]
+    images = page.get_images(full=True)
+    for img in images:
+        xref = img[0]
+        base = doc.extract_image(xref)
+        ext = base['ext']        # 如 'png'
+        w, h = base['width'], base['height']
+        with open(f'charts/fig_p{page_num+1}_xref{xref}.{ext}', 'wb') as f:
+            f.write(base['image'])
+        print(f'Saved: fig_p{page_num+1}_xref{xref}.{ext} ({w}x{h})')
+doc.close()
+```
 
 **图表提取标准**（必须提取的图表类型）：
 - 论文架构图 / 系统框图 / 框架图
 - 方法流程图 / 算法示意图
 - 主要实验结果图（主实验、对比实验）
 - 数据集构成图 / 样本分布图
-- 关键对比表格（若有重要表格也截图保存）
 
 ### Step 2: 综合分析
 
@@ -40,37 +75,87 @@ description: 对用户提供的任何学术论文（PDF附件或URL）进行双�
 - 核心发现与关键数据
 - 理论贡献与实践意义
 - 论文的根本矛盾点、切入视角、方法创新
-- 已提取的图表清单（对应 `[[CHARTS]]` 标记块）：
+- 已提取的图表清单：
 
 ```markdown
 [[CHARTS]]
-- 01_architecture.png: 图1，论文整体架构/系统框图
-- 02_method_pipeline.png: 图2，方法流程示意图
-- 03_main_results.png: 图3，主实验结果折线/柱状图
-- 04_ablation.png: 图4，消融实验结果图
+- fig_p3_xref128.png: 图1，论文整体架构/系统框图
+- fig_p4_xref182.png: 图2左，缩放点积注意力示意
+- fig_p4_xref183.png: 图2右，多头注意力示意
 [[/CHARTS]]
 ```
 
-**此步骤不可跳过**，它是保证最终报告质量的思考过程。
+### Step 3: 图片处理与上传
 
-### Step 3: 撰写双模报告
+#### 3.1 图片大小检查与缩放
 
-创建最终交付文件，文件名格式为 `[论文简称]_研读报告.md`，同一目录下创建 `[论文简称]_charts/` 子目录存放提取的图表。
+如果图片宽度超过 900px，需要缩放以避免过大。使用 macOS 内置的 `sips` 命令：
 
-**撰写 Part A 前**，先读取模板：`~/.openclaw/workspace-product/skills/paper-parse/references/part-a-template.md`
+```bash
+# 检查图片宽度
+sips -g pixelWidth charts/xxx.png | grep pixelWidth
 
-**撰写 Part B 前**，先读取模板：`~/.openclaw/workspace-product/skills/paper-parse/references/part-b-template.md`
+# 缩放宽度至 900px（保持比例）
+sips -Z 900 charts/xxx.png --out charts/xxx_resized.png
+```
 
-**图表嵌入原则**：
-- 论文原图中与该章节内容最相关的，务必插入对应位置
-- Part A 的「2.3 操作化与测量」章节：嵌入架构图/系统框图/方法流程图
-- Part A 的「3.2 关键数据与图表解读」章节：每个图/表解读后立即嵌入对应的论文原图
-- Part B 的「核心逻辑链（图解）」章节：嵌入论文架构图或方法框架图作为图解
-- 图表编号、标题、来源注释必须齐全，注明"来源：原论文 [图X号]"
+#### 3.2 上传图床获取 URL
 
-### Step 4: 交付成果
+上传到 img402.dev（无需认证，免费使用，7天有效期）：
 
-使用 `message` 工具交付最终报告文件（包含 charts 目录）。消息文本中简要概括论文的核心创新、关键发现和理论价值，引导用户查看附件。
+```bash
+curl -s -X POST https://img402.dev/api/free \
+  -F "image=@charts/xxx_resized.png" | \
+  python3 -c "import sys,json; d=json.load(sys.stdin); print(d['url'])"
+```
+
+成功后会返回类似 `https://i.img402.dev/abc123.png` 的 URL。
+
+### Step 4: 撰写双模报告
+
+创建最终交付文件 `[论文简称]_研读报告.md`。
+
+**撰写 Part A 前**，先读取模板：
+- `~/.openclaw/workspace-product/skills/paper-parse/references/part-a-template.md`
+- `~/.openclaw/workspace-product/skills/paper-parse/references/part-b-template.md`
+
+### Step 5: 图表嵌入规范（重要！）
+
+#### 图片 Markdown 格式
+
+在 Markdown 中嵌入居中且带宽度控制的图片，**必须使用 HTML 格式**（不能用纯 Markdown 的 `![]()` 语法，否则无法控制居中和尺寸）：
+
+```html
+<p align="center">
+<img src="https://i.img402.dev/abc123.png" width="900"/>
+</p>
+<p align="center">图1：图片标题说明（来源：原论文 [图1号]）</p>
+```
+
+#### 图片标题格式要求
+
+- 标题文本**不加粗、不加星号**，使用纯文本
+- 不需要写"已缩放至 XXXpx"等字样，缩放信息只在处理时用
+- 标题格式统一为：`图X：描述（来源：原论文 [图X号]）`
+
+#### LaTeX 公式说明
+
+报告中插入的 LaTeX 公式（如 `$$公式$$`）需要目标 Markdown 渲染器支持 MathJax 或 KaTeX 才能正常显示。常见环境支持情况：
+
+| 查看环境 | LaTeX 公式支持 |
+|---|---|
+| Typora / VS Code (安装 LaTeX 插件) | ✅ 支持 |
+| 飞书 / Notion | ✅ 支持 |
+| GitHub / GitLab README | ❌ 不支持（会显示原始 LaTeX 代码） |
+| 普通 Markdown 编辑器 | ❌ 通常不支持 |
+
+如果目标平台不支持 LaTeX，可将公式也做成图片嵌入，但这不是本次技能的标准处理方式——仅在用户明确要求时执行。
+
+### Step 6: 交付成果
+
+使用 `message` 工具发送报告文件，消息文本中简要概括论文的核心创新、关键发现和理论价值。
+
+---
 
 ## 写作质量标准
 
@@ -80,34 +165,53 @@ description: 对用户提供的任何学术论文（PDF附件或URL）进行双�
 - Part A 追求专业性和完整性，Part B 追求洞察力和凝练度
 - 最终文件中 Part A 和 Part B 之间用 `---` 分隔
 
-## 最终交付文件结构
-
-```markdown
-# [论文标题] 双模式研读报告
-
 ---
 
-## Part A: 深度专业学术速读报告
-
-（遵循 part-a-template.md 结构生成的完整内容，图表处嵌入论文原图）
-
----
-
-## Part B: 核心逻辑链与根本价值提炼
-
-（遵循 part-b-template.md 结构生成的完整内容，图表处嵌入论文原图）
-```
-
-## 图表提取方式说明
-
-使用 `file` 工具 `view` 动作提取 PDF 页面中的图表：
+## 附录：完整图表处理流程示例
 
 ```bash
-# 使用 pdftotext 提取全文
-pdftotext paper.pdf paper.txt
+# 1. 提取 PDF 原生图片
+python3 << 'EOF'
+import fitz, os
+doc = fitz.open('paper.pdf')
+os.makedirs('charts', exist_ok=True)
+for page_num in range(len(doc)):
+    for img in doc[page_num].get_images(full=True):
+        xref = img[0]
+        base = doc.extract_image(xref)
+        with open(f'charts/fig_p{page_num+1}_xref{xref}.{base["ext"]}', 'wb') as f:
+            f.write(base['image'])
+doc.close()
+EOF
 
-# 使用 file 工具 view 动作查看 PDF 指定页面（提取图表）
-# 在 file(path="paper.pdf", action="view", page=N) 中查看第 N 页内容
+# 2. 缩放过大图片（宽度 > 900px）
+for f in charts/*.png; do
+  w=$(sips -g pixelWidth "$f" | grep pixelWidth | awk '{print $2}')
+  if [ "$w" -gt 900 ]; then
+    sips -Z 900 "$f" --out "${f%.png}_resized.png"
+  fi
+done
+
+# 3. 上传图床
+for f in charts/*_resized.png charts/*.png; do
+  url=$(curl -s -X POST https://img402.dev/api/free -F "image=@$f" | \
+        python3 -c "import sys,json; d=json.load(sys.stdin); print(d['url'])")
+  echo "$f: $url"
+done
 ```
 
-对包含图表的关键页面，截图保存为 PNG 格式到 `{论文简称}_charts/` 目录，并在报告中引用。
+## 图床服务
+
+默认使用 **img402.dev**（GitHub Image Hosting Skill）上传图片：
+- 地址：https://img402.dev/api/free
+- 限制：单文件 < 1MB，免费无需认证，保留 7 天
+- 上传后返回 `https://i.img402.dev/xxx.png` 格式 URL
+
+## 操作备忘（实战经验）
+
+- **产出路径**：`workspace-product/research-papers/{论文简称}_研读报告.md`
+  - 例：DeepSeek-R1、YOLO
+  - **禁止**放入 `memory/` 目录（那是每日笔记和长期记忆的专属位置）
+- **img402.dev 上传**：每张图单独一次 POST；若并发上传多张图，超时风险增加，建议逐张上传；整个上传流程（含缩放）约 60s，优先处理需要缩放的图
+- **会话管理**：论文研读通常需要多轮工具调用，建议在 exec 中合并相邻的同类操作（如先提取全文再提取图表），减少往返延迟
+- **今日产出记录**：每次研读完成后，在 `memory/YYYY-MM-DD.md` 末尾追加产出路径，形成可追溯的日志

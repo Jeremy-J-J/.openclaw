@@ -23139,3 +23139,38 @@ Bind: loopback
 2026-04-09T14:35:31.446+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
 2026-04-09T14:35:31.448+08:00 [plugins] feishu_drive: Registered feishu_drive tool
 2026-04-09T14:35:31.450+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-09T14:40:51.203+08:00 [ws] ⇄ res ✓ sessions.list 53ms conn=5122bc7b…0f60 id=6a7bb624…a1df
+2026-04-09T14:42:22.207+08:00 [plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-04-09T14:42:22.209+08:00 [plugins] feishu_chat: Registered feishu_chat tool
+2026-04-09T14:42:22.210+08:00 [plugins] feishu_wiki: Registered feishu_wiki tool
+2026-04-09T14:42:22.211+08:00 [plugins] feishu_drive: Registered feishu_drive tool
+2026-04-09T14:42:22.213+08:00 [plugins] feishu_bitable: Registered bitable tools
+2026-04-09T14:51:31.244+08:00 [ws] ⇄ res ✓ sessions.list 60ms conn=5122bc7b…0f60 id=36858b72…5f84
+2026-04-09T14:51:31.246+08:00 [ws] ⇄ res ✓ chat.history 89ms conn=5122bc7b…0f60 id=8fe0d826…f3f4
+2026-04-09T16:09:58.233+08:00 [ws] ⇄ res ✓ chat.history 53ms conn=5122bc7b…0f60 id=db37d87a…0c04
+2026-04-09T16:13:25.353+08:00 [ws] ⇄ res ✓ chat.send 80ms runId=de6f41d0-4eb0-42b2-9239-6564b07485fc conn=5122bc7b…0f60 id=d75e5613…5a1b
+2026-04-09T16:13:27.025+08:00 [ws] ⇄ res ✓ sessions.list 55ms conn=5122bc7b…0f60 id=b1d9f1cd…aee5
+2026-04-09T16:13:27.026+08:00 [ws] ⇄ res ✓ chat.history 64ms conn=5122bc7b…0f60 id=bfbc93dc…cac5
+2026-04-09T16:19:41.700+08:00 [ws] ⇄ res ✓ sessions.list 52ms conn=5122bc7b…0f60 id=4274cf6d…33ae
+2026-04-09T16:19:41.702+08:00 [ws] ⇄ res ✓ chat.history 61ms conn=5122bc7b…0f60 id=e5c9907d…29ac
+2026-04-09T16:22:55.250+08:00 [ws] ⇄ res ✓ chat.history 61ms conn=5122bc7b…0f60 id=a37c6bcd…c01d
+2026-04-09T16:27:40.182+08:00 [ws] ⇄ res ✓ chat.send 51ms runId=6e94716c-734a-4926-84b5-35656aa14c4b conn=5122bc7b…0f60 id=b1eadad6…59e0
+2026-04-09T16:38:17.202+08:00 [ws] ⇄ res ✓ sessions.list 51ms conn=5122bc7b…0f60 id=9ab49ca4…b828
+2026-04-09T16:41:06.374+08:00 [ws] ⇄ res ✓ sessions.list 52ms conn=5122bc7b…0f60 id=3c1e3354…f1cd
+2026-04-09T16:42:03.777+08:00 [ws] ⇄ res ✓ chat.history 58ms conn=5122bc7b…0f60 id=9c1cdd42…1c95
+2026-04-09T16:50:20.895+08:00 [ws] ⇄ res ✓ sessions.list 61ms conn=5122bc7b…0f60 id=e4e7ee54…87c7
+2026-04-09T16:50:20.897+08:00 [ws] ⇄ res ✓ chat.history 75ms conn=5122bc7b…0f60 id=6884cb63…7f44
+2026-04-09T16:55:30.493+08:00 [ws] ⇄ res ✓ sessions.list 60ms conn=5122bc7b…0f60 id=98b712e7…7076
+2026-04-09T16:55:30.495+08:00 [ws] ⇄ res ✓ chat.history 70ms conn=5122bc7b…0f60 id=e044a79c…0093
+2026-04-09T16:56:08.336+08:00 [ws] ⇄ res ✓ sessions.list 56ms conn=5122bc7b…0f60 id=0d90ff35…08cb
+2026-04-09T17:00:21.784+08:00 [ws] ⇄ res ✓ chat.history 54ms conn=5122bc7b…0f60 id=1e274b00…f7c9
+2026-04-09T17:00:21.850+08:00 [ws] ⇄ res ✓ sessions.list 65ms conn=5122bc7b…0f60 id=4e039617…2ac1
+2026-04-09T17:03:19.137+08:00 [gateway] signal SIGTERM received
+2026-04-09T17:03:19.141+08:00 [gateway] received SIGTERM; shutting down
+2026-04-09T17:03:19.306+08:00 [feishu] feishu[dev_bajie]: abort signal received, stopping
+2026-04-09T17:03:19.308+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-09T17:03:19.311+08:00 [feishu] feishu[main]: abort signal received, stopping
+2026-04-09T17:03:19.312+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-09T17:03:19.314+08:00 [feishu] feishu[product_wukong]: abort signal received, stopping
+2026-04-09T17:03:19.314+08:00 [info]: [ '[ws]', 'ws client closed manually' ]
+2026-04-09T17:03:19.326+08:00 [gmail-watcher] gmail watcher stopped

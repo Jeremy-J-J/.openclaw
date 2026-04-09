@@ -1154,3 +1154,36 @@ Cause: Timed out after waiting 5030ms raw_params={"action":"act","profile":"user
 2026-04-09T14:06:20.506+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=0915be22-89ce-458b-83df-80a976f51636
 2026-04-09T14:21:17.658+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=0915be22-89ce-458b-83df-80a976f51636
 2026-04-09T14:35:31.870+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=8a45142d-1310-4949-8af2-70fe190c1abf
+2026-04-09T14:45:36.056+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=9f0c6471-aff0-4535-9e43-64c86ff4053b
+2026-04-09T14:45:54.323+08:00 [agent/embedded] embedded run agent end: runId=be497eac-46b9-4dc1-9397-bf4ff5596ec9 isError=true model=MiniMax-M2.7 provider=minimax error=LLM request timed out. rawError=The model stopped because the provider returned an unhandled stop reason: abort. Please rephrase and try again.
+2026-04-09T14:45:54.371+08:00 [agent/embedded] embedded run failover decision: runId=be497eac-46b9-4dc1-9397-bf4ff5596ec9 stage=assistant decision=surface_error reason=timeout provider=minimax/MiniMax-M2.7 profile=sha256:c38c74a5066a
+2026-04-09T14:48:09.576+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_6h91184j74jk_1 argsType=object
+2026-04-09T14:48:16.053+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_1z0815uz80ck_2 argsType=object
+2026-04-09T14:48:16.065+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_1z0815uz80ck_3 argsType=object
+2026-04-09T14:48:16.202+08:00 [tools] read failed: ENOENT: no such file or directory, access '/home/ubuntu/skills/paper-parse/references/part-a-template.md' raw_params={"file":"/home/ubuntu/skills/paper-parse/references/part-a-template.md"}
+2026-04-09T14:48:16.210+08:00 [tools] read failed: ENOENT: no such file or directory, access '/home/ubuntu/skills/paper-parse/references/part-b-template.md' raw_params={"file":"/home/ubuntu/skills/paper-parse/references/part-b-template.md"}
+2026-04-09T15:05:34.442+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=8a45142d-1310-4949-8af2-70fe190c1abf
+2026-04-09T15:35:34.015+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=8a45142d-1310-4949-8af2-70fe190c1abf
+2026-04-09T16:05:34.157+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=8a45142d-1310-4949-8af2-70fe190c1abf
+2026-04-09T16:13:25.675+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=d1aeb518-13e5-4938-bbf7-6c74b8228e23
+2026-04-09T16:19:40.424+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=d1aeb518-13e5-4938-bbf7-6c74b8228e23
+2026-04-09T16:20:08.816+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_ytczidmyue06_1 argsType=object
+2026-04-09T16:20:16.425+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_db6q7pt9uzoe_1 argsType=object
+2026-04-09T16:20:16.446+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_db6q7pt9uzoe_2 argsType=object
+2026-04-09T16:22:20.115+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_g042sfslvacn_1 argsType=object
+2026-04-09T16:27:45.529+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=ff1a0b39-6f2b-4cdf-a13d-25a7213fbfa0
+2026-04-09T16:31:00.574+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=ff1a0b39-6f2b-4cdf-a13d-25a7213fbfa0
+2026-04-09T16:32:46.539+08:00 [agent/embedded] Profile minimax:cn timed out. Trying next account...
+2026-04-09T16:32:46.541+08:00 [agent/embedded] embedded run failover decision: runId=94474f12-adc9-47d6-8e84-94220bce7b22 stage=assistant decision=surface_error reason=timeout provider=minimax/MiniMax-M2.7 profile=sha256:c38c74a5066a
+2026-04-09T16:35:34.227+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=8a45142d-1310-4949-8af2-70fe190c1abf
+2026-04-09T16:41:43.481+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_gv28f8092usq_1 argsType=object
+2026-04-09T16:41:48.683+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_j41covoqfosf_1 argsType=object
+2026-04-09T16:41:54.858+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_bu83zyilmcmr_1 argsType=object
+2026-04-09T16:45:35.919+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=7dd5e5cc-8c85-4a0f-90c1-e07045c1d767
+2026-04-09T16:48:09.748+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_zr8g5owo6szv_1 argsType=object
+2026-04-09T16:49:02.144+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_jpkst3zjlw6a_1 argsType=object
+2026-04-09T16:49:15.083+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_pw9hun32cn2p_1 argsType=object
+2026-04-09T16:49:15.109+08:00 [agent/embedded] read tool called without path: toolCallId=call_function_pw9hun32cn2p_2 argsType=object
+2026-04-09T16:55:29.358+08:00 [agent/embedded] [session-recovery] dropped latest assistant message with incomplete thinking: sessionId=8b09dcb0-6d88-48f3-a4d7-233a8f6e3a8a
+2026-04-09T17:02:47.724+08:00 [agent/embedded] Profile minimax:cn timed out. Trying next account...
+2026-04-09T17:02:47.727+08:00 [agent/embedded] embedded run failover decision: runId=67af3bc8-4a90-45b3-9439-7551ad88473b stage=assistant decision=surface_error reason=timeout provider=minimax/MiniMax-M2.7 profile=sha256:c38c74a5066a
