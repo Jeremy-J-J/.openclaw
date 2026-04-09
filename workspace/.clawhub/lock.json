@@ -24,6 +24,14 @@
     "agent-browser-clawdbot": {
       "version": "0.1.0",
       "installedAt": 1775122001457
+    },
+    "skill-create-cn": {
+      "version": "1.0.1",
+      "installedAt": 1775547470582
+    },
+    "summarizer": {
+      "version": "1.0.0",
+      "installedAt": 1775549282649
     }
   }
 }

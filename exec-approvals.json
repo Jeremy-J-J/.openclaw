@@ -67,8 +67,8 @@
         {
           "id": "d007a9d8-ad3b-4d27-a9c2-e01b141a32e1",
           "pattern": "/usr/bin/ssh",
-          "lastUsedAt": 1775207022674,
-          "lastUsedCommand": "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p 30669 root@221.12.22.187 'ls /C20545/jeremyj/pro/cursor-agent/generated_scenarios/ | while read d; do echo \"=== $d ===\" && ls \"/C20545/jeremyj/pro/cursor-agent/generated_scenarios/$d/\"; done'",
+          "lastUsedAt": 1775715719369,
+          "lastUsedCommand": "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p 30669 root@221.12.22.187 'echo \"=== 文件夹数量 ===\" && ls -1 /C20545/jeremyj/pro/cursor-agent/generated_scenarios/ | wc -l && echo \"=== 检查缺失 .osc 的文件夹 ===\" && for dir in /C20545/jeremyj/pro/cursor-agent/generated_scenarios/*/; do folder=$(basename \"$dir\"); has_osc=$(ls \"$dir\"*.osc 2>/dev/null | wc -l | tr -d \" \"); if [ \"$has_osc\" -eq 0 ]; then echo \"MISSING OSC: $folder\"; ls -la \"$dir\"; fi; done && echo \"=== DONE ===\"'",
           "lastResolvedPath": "/usr/bin/ssh"
         },
         {
@@ -104,8 +104,8 @@
         {
           "id": "c5286a2b-64c8-4d91-bf01-f4e96b41aa6b",
           "pattern": "/bin/ls",
-          "lastUsedAt": 1775210133432,
-          "lastUsedCommand": "ls -la /Users/jeremyj_pc/.openclaw/",
+          "lastUsedAt": 1775547763667,
+          "lastUsedCommand": "ls /Users/jeremyj_pc/.openclaw/workspace-product/skills/wechat-republish/",
           "lastResolvedPath": "/bin/ls"
         },
         {
@@ -126,8 +126,8 @@
         {
           "id": "4deb9122-e3df-4bae-9aa9-7fef3debe578",
           "pattern": "/opt/homebrew/bin/agent-browser",
-          "lastUsedAt": 1775253013272,
-          "lastUsedCommand": "agent-browser snapshot -i --json",
+          "lastUsedAt": 1775546360344,
+          "lastUsedCommand": "agent-browser open \"https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=1702686186\" --headed false",
           "lastResolvedPath": "/opt/homebrew/bin/agent-browser"
         }
       ]

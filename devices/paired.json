@@ -2,31 +2,43 @@
   "bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d": {
     "deviceId": "bb01633647132a0076b2672b226dd5db7f8380f881ee6462bd65f431b74be70d",
     "publicKey": "GZ_5qCmtC5_l1GwkJWwcO3iX2R808sPewwCoDd_6qvI",
-    "displayName": "agent",
     "platform": "darwin",
-    "clientId": "gateway-client",
-    "clientMode": "backend",
+    "clientId": "cli",
+    "clientMode": "cli",
     "role": "operator",
     "roles": [
       "operator"
     ],
     "scopes": [
-      "operator.approvals"
+      "operator.approvals",
+      "operator.read",
+      "operator.pairing",
+      "operator.admin",
+      "operator.write"
     ],
     "approvedScopes": [
-      "operator.approvals"
+      "operator.approvals",
+      "operator.read",
+      "operator.pairing",
+      "operator.admin",
+      "operator.write"
     ],
     "tokens": {
       "operator": {
-        "token": "5-2cZZ7zBcBRppxiNqtmZFLldwrXSCj4U-M515CMjpo",
+        "token": "-L-81T5l2oFY_PQUd1VXNELIVr2NQcu-L_n7X5rWF_A",
         "role": "operator",
         "scopes": [
-          "operator.approvals"
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.write"
         ],
-        "createdAtMs": 1775028372276
+        "createdAtMs": 1775028372276,
+        "rotatedAtMs": 1775622047584
       }
     },
     "createdAtMs": 1775028372276,
-    "approvedAtMs": 1775028372276
+    "approvedAtMs": 1775622047584
   }
 }
