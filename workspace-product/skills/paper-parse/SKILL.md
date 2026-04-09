@@ -14,6 +14,7 @@ description: 对用户提供的任何学术论文（PDF附件或URL）进行双�
 - **完整复现**: 完整呈现从提出问题到得出结论的全过程，特别是方法论和关键数据，做到关键信息零遗漏。
 - **超越翻译**: 产出物应比线性翻译稿更能清晰地揭示论文的内在逻辑和创新点。
 - **双模输出**: 始终在一个最终交付文件中同时提供 Part A 和 Part B。
+- **图表优先**: 论文中的关键图表（原图）必须提取并插入报告对应位置，让报告图文并茂、可读性更强。图表是洞察的载体，不是装饰。
 
 ## 工作流程
 
@@ -21,7 +22,16 @@ description: 对用户提供的任何学术论文（PDF附件或URL）进行双�
 
 ### Step 1: 通读论文全文
 
-使用 `pdftotext` 命令或 `file` 工具的 `read` 动作提取论文全文。对于URL来源的论文，先尝试下载PDF再提取。必须覆盖从摘要到参考文献的所有内容。对于包含重要图表的论文，使用 `file` 工具的 `view` 动作查看关键图表页面，并将图表信息保存到文本文件中。
+使用 `pdftotext` 命令提取论文全文。对于URL来源的论文，先尝试下载PDF再提取。必须覆盖从摘要到参考文献的所有内容。
+
+**同时**，使用 `file` 工具的 `view` 动作查看并提取论文中的关键图表（PDF 页面或图像），保存到 `{论文简称}_charts/` 目录，命名格式：`{序号}_{原图描述}.png`，如 `01_architecture.png`、`02_main_results.png`。
+
+**图表提取标准**（必须提取的图表类型）：
+- 论文架构图 / 系统框图 / 框架图
+- 方法流程图 / 算法示意图
+- 主要实验结果图（主实验、对比实验）
+- 数据集构成图 / 样本分布图
+- 关键对比表格（若有重要表格也截图保存）
 
 ### Step 2: 综合分析
 
@@ -30,20 +40,37 @@ description: 对用户提供的任何学术论文（PDF附件或URL）进行双�
 - 核心发现与关键数据
 - 理论贡献与实践意义
 - 论文的根本矛盾点、切入视角、方法创新
+- 已提取的图表清单（对应 `[[CHARTS]]` 标记块）：
+
+```markdown
+[[CHARTS]]
+- 01_architecture.png: 图1，论文整体架构/系统框图
+- 02_method_pipeline.png: 图2，方法流程示意图
+- 03_main_results.png: 图3，主实验结果折线/柱状图
+- 04_ablation.png: 图4，消融实验结果图
+[[/CHARTS]]
+```
 
 **此步骤不可跳过**，它是保证最终报告质量的思考过程。
 
 ### Step 3: 撰写双模报告
 
-创建最终交付文件，文件名格式为 `[论文简称]_研读报告.md`。
+创建最终交付文件，文件名格式为 `[论文简称]_研读报告.md`，同一目录下创建 `[论文简称]_charts/` 子目录存放提取的图表。
 
-**撰写 Part A 前**，先读取模板：`/home/ubuntu/skills/paper-parse/references/part-a-template.md`
+**撰写 Part A 前**，先读取模板：`~/.openclaw/workspace-product/skills/paper-parse/references/part-a-template.md`
 
-**撰写 Part B 前**，先读取模板：`/home/ubuntu/skills/paper-parse/references/part-b-template.md`
+**撰写 Part B 前**，先读取模板：`~/.openclaw/workspace-product/skills/paper-parse/references/part-b-template.md`
+
+**图表嵌入原则**：
+- 论文原图中与该章节内容最相关的，务必插入对应位置
+- Part A 的「2.3 操作化与测量」章节：嵌入架构图/系统框图/方法流程图
+- Part A 的「3.2 关键数据与图表解读」章节：每个图/表解读后立即嵌入对应的论文原图
+- Part B 的「核心逻辑链（图解）」章节：嵌入论文架构图或方法框架图作为图解
+- 图表编号、标题、来源注释必须齐全，注明"来源：原论文 [图X号]"
 
 ### Step 4: 交付成果
 
-使用 `message` 工具交付最终报告文件。消息文本中简要概括论文的核心创新、关键发现和理论价值，引导用户查看附件。
+使用 `message` 工具交付最终报告文件（包含 charts 目录）。消息文本中简要概括论文的核心创新、关键发现和理论价值，引导用户查看附件。
 
 ## 写作质量标准
 
@@ -62,11 +89,25 @@ description: 对用户提供的任何学术论文（PDF附件或URL）进行双�
 
 ## Part A: 深度专业学术速读报告
 
-（遵循 part-a-template.md 结构生成的完整内容）
+（遵循 part-a-template.md 结构生成的完整内容，图表处嵌入论文原图）
 
 ---
 
 ## Part B: 核心逻辑链与根本价值提炼
 
-（遵循 part-b-template.md 结构生成的完整内容）
+（遵循 part-b-template.md 结构生成的完整内容，图表处嵌入论文原图）
 ```
+
+## 图表提取方式说明
+
+使用 `file` 工具 `view` 动作提取 PDF 页面中的图表：
+
+```bash
+# 使用 pdftotext 提取全文
+pdftotext paper.pdf paper.txt
+
+# 使用 file 工具 view 动作查看 PDF 指定页面（提取图表）
+# 在 file(path="paper.pdf", action="view", page=N) 中查看第 N 页内容
+```
+
+对包含图表的关键页面，截图保存为 PNG 格式到 `{论文简称}_charts/` 目录，并在报告中引用。
