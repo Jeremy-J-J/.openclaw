@@ -101,7 +101,9 @@ sips -Z 900 charts/xxx.png --out charts/xxx_resized.png
 
 #### 3.2 上传图床获取 URL
 
-上传到 img402.dev（无需认证，免费使用，7天有效期）：
+**⚠️ 微信公众号发布时图片不能用外部图床**：微信富文本不支持 img402.dev 等外部链接，必须先上传到微信素材库获取 mmbiz URL。
+
+**非公众号场景**（如飞书、GitHub）：上传到 img402.dev（无需认证，免费使用，7天有效期）：
 
 ```bash
 curl -s -X POST https://img402.dev/api/free \
@@ -110,6 +112,8 @@ curl -s -X POST https://img402.dev/api/free \
 ```
 
 成功后会返回类似 `https://i.img402.dev/abc123.png` 的 URL。
+
+**公众号发布场景**：必须调用微信素材库 API 上传（详见 wechat-mp-publisher skill），每张正文图片都要上传获取 mmbiz URL，封面单独上传获取 thumb_media_id。
 
 ### Step 4: 撰写双模报告
 

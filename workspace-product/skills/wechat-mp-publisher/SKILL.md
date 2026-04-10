@@ -136,21 +136,32 @@ wenyan-cli 对 Node 版本有严格要求：
 
 ## 🔧 直接 API 方案（wenyan-cli 不可用时的备选）
 
-当 wenyan-cli 因 Node 版本问题无法工作时，可直接调微信 API：
+当 wenyan-cli 因 Node 版本问题无法工作时，或需要更精细控制时，可直接调微信 API：
 
 ```bash
 # 1. 获取 access_token（IP 需在白名单）
 TOKEN=$(curl -s "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET" | python3 -c "import sys,json; print(json.load(sys.stdin)['access_token'])")
 
-# 2. 上传封面图获取 thumb_media_id
-curl -s -X POST "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=${TOKEN}&type=image" \
-  -F "media=@cover.png;type=image/png"
+# 2. 上传封面图 → 获取 thumb_media_id
+COVER_RESP=$(curl -s -X POST "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=${TOKEN}&type=image" \
+  -F "media=@cover.png;type=image/png")
+THUMB_MEDIA_ID=$(echo $COVER_RESP | python3 -c "import sys,json; print(json.load(sys.stdin)['media_id'])")
 
-# 3. 调用 draft/add 上传草稿
+# 3. 上传正文图片（每张图都要！）→ 获取 mmbiz URL
+IMG_RESP=$(curl -s -X POST "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=${TOKEN}&type=image" \
+  -F "media=@fig_xxx.png;type=image/png")
+MMBIZ_URL=$(echo $IMG_RESP | python3 -c "import sys,json; print(json.load(sys.stdin)['url'])")
+
+# 4. 调用 draft/add 上传草稿
 curl -s -X POST "https://api.weixin.qq.com/cgi-bin/draft/add?access_token=${TOKEN}" \
   -H "Content-Type: application/json" \
-  -d '{"articles":[{"title":"标题","author":"作者","digest":"摘要","content":"<p>HTML内容</p>","thumb_media_id":"封面MediaID","need_open_comment":0,"only_fans_can_comment":0}]}'
+  -d '{"articles":[{"title":"标题","author":"作者","digest":"摘要","content":"<p><img src=\"MMBIZ_URL\"/></p>","thumb_media_id":"THUMB_MEDIA_ID","need_open_comment":0,"only_fans_can_comment":0}]}'
 ```
+
+**⚠️ 重要规范（踩坑总结）**：
+1. **正文图片必须用微信素材库地址（mmbiz）**：调用 `material/add_material` 上传后返回的 `url` 字段就是 `mmbiz.qpic.cn` 地址，**不能用** img402.dev 等外部图床链接（微信富文本不展示外部图片）
+2. **封面 thumb_media_id 必须来自本次上传**：每次发布都要重新上传封面图获取新 media_id，不能用之前其他论文的封面 ID
+3. **所有 markdown 格式必须转 HTML**：`**xxx**` → `<strong>xxx</strong>`，`---` → `<hr/>`，不要裸传 markdown 语法
 
 ## 📋 凭证文件格式（重要！）
 
