@@ -36,6 +36,10 @@
     "github-image-hosting": {
       "version": "1.0.0",
       "installedAt": 1775726073169
+    },
+    "wechat-mp-publisher": {
+      "version": "2.0.2",
+      "installedAt": 1775755033784
     }
   }
 }

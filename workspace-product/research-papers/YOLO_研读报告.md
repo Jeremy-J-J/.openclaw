@@ -1,3 +1,8 @@
+---
+title: YOLO 论文深度解读：单阶段实时目标检测的开山之作
+cover: https://i.img402.dev/sj0lf38963.png
+---
+
 # YOLO 论文研读报告
 
 > **论文信息**：You Only Look Once: Unified, Real-Time Object Detection
