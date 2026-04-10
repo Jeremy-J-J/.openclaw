@@ -104,8 +104,8 @@
         {
           "id": "c5286a2b-64c8-4d91-bf01-f4e96b41aa6b",
           "pattern": "/bin/ls",
-          "lastUsedAt": 1775801950219,
-          "lastUsedCommand": "ls -la /Users/jeremyj_pc/.openclaw/workspace-product/charts3/",
+          "lastUsedAt": 1775813172157,
+          "lastUsedCommand": "ls /Users/jeremyj_pc/.openclaw/workspace-product/skills/wechat-mp-publisher/scripts/",
           "lastResolvedPath": "/bin/ls"
         },
         {

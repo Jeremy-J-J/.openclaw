@@ -52,6 +52,17 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
   - 文件命名：`{论文简称或主题}_研读报告.md`
   - 图表可同步保存在 `research-papers/charts/` 子目录
 
+### 微信公众号发布铁律（2026-04-10 教训）
+
+**团队角色描述禁止用列表格式（- xxx）**：
+- 错误：`- 基本面分析师：xxx\n- 舆情分析师：xxx` → 微信会渲染成多级嵌套列表
+- 正确：纯文本段落 + 分号分隔：`基本面分析师分析xxx；舆情分析师处理xxx`
+- 角色名用 `<strong>` 加粗，其余全是纯文本
+
+**所有列表项都是如此**：微信富文本会自动把类似「职位：内容」的段落识别为列表并加黑点，Markdown 的 `- ` 前缀反而会造成双重列表。
+
+---
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.
