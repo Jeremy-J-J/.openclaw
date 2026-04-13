@@ -55,6 +55,8 @@ curl -X POST "https://api.weixin.qq.com/cgi-bin/material/add_material?access_tok
 
 **重要**：正文中的图片必须先上传到微信素材库，获取 `mmbiz.qpic.cn` 地址后才能正确显示。
 
+**★★★ 上传后必须验证 URL 是否正确 ★★★**：如果某张图片在公众号中不显示（空白或微信默认图标），很可能是该图片对应的 URL 有问题。将显示异常的图重新上传（用同一张原文件），获取新 URL 替换研读报告中对应图片的 URL。
+
 ```bash
 for f in charts/fig_*.png charts/fig_*.jpeg; do
   TYPE=$(echo $f | grep -q png && echo "image/png" || echo "image/jpeg")
@@ -65,49 +67,73 @@ for f in charts/fig_*.png charts/fig_*.jpeg; do
 done
 ```
 
-### Step 3: 在研读报告中插入图片
+### Step 3: 核对PDF图片与论文图号的对应关系
+
+**★★★ 关键警告：PDF提取的图片顺序 ≠ 论文中的Figure编号 ★★★**
+PyMuPDF 按页码顺序提取图片，但论文中引用的 Figure 编号不一定对应文件的页码位置。**必须对照原论文确认每个位置对应的真实图号**，避免图号与图片内容不符。核对方法：阅读论文原文找到每个图号所在页面，对照 PyMuPDF 提取出来的图片确认实际内容。
+
+### Step 4: 在研读报告中插入图片
 
 **关键**：PDF 提取只能得到图片文件，不会自动插入正文。需要在适当位置手动插入。
 
-在 `research-papers/{论文简称}_研读报告.md` 中，在章节标题后、表格前后等适当位置插入：
+在 `research-papers/{论文简称}_研读报告.md` 中，在章节标题后、表格前后等适当位置插入 Markdown 图片语法：
 
 ```
-<p align="center"><img src="mmbiz_qpic_cn_url" width="600"/></p>
-<p>图1：图片说明（来源：原论文 Figure X）</p>
+![图1：图片说明（来源：原论文 Figure X）](charts_resized/fig_xxx.png)
 ```
 
-### Step 4: 转换研读报告（Markdown → HTML）
+**注意**：在 Markdown 文件中写 `![alt](path)` 格式，**不要**写 HTML 标签。转换脚本会在 Step 5 中自动将 Markdown 图片语法替换为微信兼容的 HTML img 标签。
 
-#### 4.1 预处理
+**图片标题格式**：`图X：描述（来源：原论文 [图X号]）`，纯文本、不加粗、不加星号。
+
+### Step 5: 转换研读报告（Markdown → HTML）
+
+#### 5.1 预处理
 
 1. **替换图片 URL**：将研读报告中所有 `img402.dev` URL 替换为微信 mmbiz URL
 2. **去除 Part B**：从 `\n## Part B:` 位置截断
-3. **跳过元标题**：H1（文章主标题）、"## 核心信息"、"## Part A"、"## Part B" 均不输出到正文
-4. **研读报告 markdown 中不要写 HTML 标签**：所有内容用纯 Markdown 格式书写
+3. **去除结构化摘要表格**：从 `### 结构化摘要` 到 `### 1. 引言` 之间的表格全部跳过
+4. **跳过元标题**：H1（文章主标题）、"## 核心信息"、"## Part A"、"## Part B" 均不输出到正文
+5. **研读报告 markdown 中不要写 HTML 标签**：所有内容用纯 Markdown 格式书写
+6. **正文开头人工补充基本信息**：从结构化摘要表格中提取 "背景/目标"、"方法"、"结果"、"结论" 四个字段，转换为纯文本摘要段落，格式如下：
 
-#### 4.2 Markdown → HTML 核心规则
+```html
+<p style="margin-top:16px"><strong>论文标题：</strong>MinerU2.5: ...</p>
+<p style="margin-top:16px"><strong>作者团队：</strong>Junbo Niu*, ...</p>
+<p style="margin-top:16px"><strong>发布时间：</strong>arXiv:2509.22186v2（2025年9月29日）</p>
+<p style="margin-top:16px"><strong>论文地址：</strong>https://arxiv.org/abs/2509.22186</p>
+<p style="margin-top:16px"><strong>开源地址：</strong>https://github.com/opendatalab/MinerU</p>
+<p style="margin-top:20px"><strong>背景/目标：</strong>从摘要提取的文本</p>
+<p style="margin-top:16px"><strong>方法：</strong>从摘要提取的文本</p>
+<p style="margin-top:16px"><strong>结果：</strong>从摘要提取的文本</p>
+<p style="margin-top:16px"><strong>结论：</strong>从摘要提取的文本</p>
+<hr/>
+```
+
+#### 5.2 Markdown → HTML 核心规则
 
 | 元素 | 转换规则 |
 |---|---|
-| **图片 URL** | 使用微信 mmbiz 地址（img402.dev 不可用） |
-| **HTML 标签行** | 直接保留（如 `<p align="center"><img...>`），**不经过 escape 函数** |
+| **Markdown 图片语法** `![alt](path)` | **先用 re.sub 替换**为 `<p align="center"><img src="mmbiz_url" width="600"/></p>\n<p align="center">alt文字</p>`，**不经过 escape** |
+| **HTML img 标签行** | 直接保留，**不经过 escape 函数** |
 | **LaTeX 公式** | 替换为 1-2 句话文字描述，跳过 `$$` 行 |
 | **H1 标题** | 不输出（标题已在 article.title 设置） |
 | **H2 标题** | 输出 `<p style="margin-top:20px"><strong>xxx</strong></p>` |
-| **H3/H4 顶级章节标题**（如 `### 1. 引言`、`### 2. 模型架构`） | 顶级章节匹配 `^\d+\.\s+` 时加 `margin-top:20px` |
-| **H3/H4 子章节**（如 `#### 1.1`、`#### 2.1`） | 输出 `<p><strong>xxx</strong></p>`，**不加 margin-top** |
-| **信息类表格**（两列，项目/维度/指标） | 转 `<p><strong>key</strong>：value</p>`，跳过表头行 |
-| **复杂表格**（多列、含数据） | 转标准 HTML `<table>` |
+| **H3/H4 标题** | **全部**加 `margin-top:20px`（上下均有间距，不区分顶级/子章节） |
+| **Markdown 表格行** | **全部跳过**（摘要信息已在 5.1 预处理中提取为纯文本） |
 | **Markdown 列表项**（`- ` 开头） | 转 `<p>text</p>`，不用 `<ul><li>` |
 | **普通段落** | strip_md_format → inline_format → escape → `<p style="margin-top:16px">text</p>` |
 | **分隔线** | 转 `<hr/>` |
 | **代码块** | 转 `<pre><code>code</code></pre>` |
 
-#### 4.3 段落间距核心经验（经验总结）
+#### 5.3 段落间距核心经验（最终调试结论）
 
 WeChat 编辑器会忽略纯空行（`''`）和裸 `<br/>` 标签。
 
-**最终方案（调试后最优）**：所有段落统一加 `margin-top:16px`，顶级章节标题（H2 全部、H3 中匹配 `^\d+\.\s+` 的）再加额外 `margin-top:20px`（在 16px 基础上叠加）。
+**最终方案（调试后最优）**：
+- 所有段落统一加 `margin-top:16px`
+- **所有 H2/H3/H4 标题统一加 `margin-top:20px`**（上下均有间距，不再区分顶级/子章节）
+- 分隔线 `<hr/>` 上下均自然产生间距
 
 **注意**：`text-align:left` 等 CSS 属性在 WeChat 中可能被过滤，**不要加**，直接用裸 `<p>` 标签。
 
@@ -222,26 +248,38 @@ for line in lines:
 html = '\n'.join(result)
 ```
 
-### Step 5: 上传草稿箱
+### Step 6: 上传草稿箱
+
+**★★★ thumb_media_id 必须使用最新获取的 media_id ★★★**：每次重新上传封面图会得到新的 media_id，旧的可能失效。
 
 ```python
 article = {
-    "title": "吸引人的文章标题（不用研读报告字样）",
-    "author": "极智视界",
-    "digest": "简短摘要（不超过54字）",
-    "content": html_content,
-    "thumb_media_id": "<Step 2.2 获取的 media_id>",
-    "need_open_comment": 0,
-    "only_fans_can_comment": 0
+    "articles": [{
+        "title": "吸引人的文章标题（不用研读报告字样）",
+        "author": "极智视界",
+        "digest": "简短摘要（不超过54字）",
+        "content": html_content,
+        "thumb_media_id": "<Step 2.2 获取的 media_id>",
+        "need_open_comment": 0,
+        "only_fans_can_comment": 0
+    }]
 }
-# curl -X POST "https://api.weixin.qq.com/cgi-bin/draft/add?access_token=${TOKEN}" \
-#   -H "Content-Type: application/json; charset=utf-8" \
-#   -d @/tmp/wechat_article.json
+```
+
+注意 JSON 结构是 `articles` 数组，不是顶层 JSON 对象。
+
+**curl 命令**：
+```bash
+curl -X POST "https://api.weixin.qq.com/cgi-bin/draft/add?access_token=${TOKEN}" \
+  -H "Content-Type: application/json; charset=utf-8" \
+  -d @/tmp/wechat_article.json
 ```
 
 成功响应：`{"media_id":"...", "item":[...]}`
 
-### Step 6: 验证与记录
+**★★★ access_token 过期处理 ★★★**：如果 API 返回 `{"errcode":42001, "errmsg":"access_token expired"}`，立即重新获取 token。
+
+### Step 7: 验证与记录
 
 1. 登录微信公众号后台 → 内容管理 → 草稿箱，确认格式正确
 2. 记录 Media ID 到 `memory/YYYY-MM-DD.md`
@@ -256,17 +294,40 @@ article = {
 - **原因**：使用了 img402.dev 等外部图床链接，微信会过滤；或正文图片未上传到微信素材库
 - **解决**：所有图片必须先通过 `material/add_material` 上传到微信素材库，用 `mmbiz.qpic.cn` 地址；在研读报告中手动插入
 
+### 图片 URL 被截断导致无法显示
+- **原因**：在 shell 中用 `echo $RESP | python3 ...` 提取 URL 时，URL 被 shell 截断（curl 响应的 JSON 中 URL 约 200 字符，超出终端显示宽度被截断），导致微信收到不完整 URL
+- **解决**：**必须全程在 Python 中提取 URL**，不用 shell echo：
+```python
+import json
+RESP = subprocess.run(["curl", "-s", "-X", "POST", ...], capture_output=True).stdout
+data = json.loads(RESP)
+url = data.get("url", "")  # Python 完整提取，不会截断
+```
+- **验证方法**：JSON 中每个 URL 长度必须 > 150 字符才是完整 URL
+
+### 论文图片与 Figure 编号不匹配
+- **原因**：论文 PDF 中提取出来的图片顺序与论文正文的 Figure 编号不一定对应；可能是 Logo、照片示例、supplementary material
+- **解决**：对照论文原文 caption 确认每张图的实际内容和位置；用 AI 视觉验证渲染图内容与 caption 描述是否匹配
+
+### 公众号中出现 "豆包AI生成" 等水印图片
+- **原因**：这是论文中的实验照片（电商场景真实图片），并非文件损坏；论文用来展示 RefineAnything 的文字/Logo 修复效果
+- **解决**：这是正常内容，无需处理
+
+### 矢量图形用 get_images() 提取为空白
+- **原因**：会议论文（ACM/SOSP/CVPR 等）的 Figure 几乎全是矢量路径（PDF paths），`get_images()` 返回空或只有 1 张 Logo
+- **解决**：矢量图必须用 `get_pixmap()` 渲染（见 paper-parse skill Step 1.2）
+
 ### 正文没有图片
 - **原因**：PDF 提取只会得到图片文件，不会自动插入正文
 - **解决**：在 Step 3 中手动在适当位置插入图片 HTML
 
 ### 段落上方没有空行（间距）
 - **原因**：WeChat 编辑器会忽略纯空行（`''`）和裸 `<br/>` 标签
-- **解决**：所有段落统一加 `margin-top:16px`
+- **解决**：所有段落统一加 `margin-top:16px`，所有 H2/H3/H4 标题统一加 `margin-top:20px`
 
-### 子章节（1.1、2.1）上方也被加了空行
-- **原因**：误将 H4 子章节也加了 `margin-top`
-- **解决**：H4 子章节（如 `#### 1.1`）不加；只有顶级章节（匹配 `^\d+\.\s+` 的 H3）才加
+### 子章节上方没有被空行（间距不足）
+- **原因**：之前错误地只给顶级章节加间距，子章节（1.1、2.1）不加
+- **解决**：**所有** H2/H3/H4 标题统一加 `margin-top:20px`，不再区分顶级/子章节
 
 ### 信息类表格内容双重加粗
 - **原因**：单元格内容已有 `**粗体**` 标记，先 escape 再 inline_format 会导致重复
@@ -288,6 +349,19 @@ article = {
 
 - `research-papers/{论文简称}_研读报告.md` — 研读报告（纯 Markdown）
 - 草稿箱新文章 — Media ID 记录在 `memory/YYYY-MM-DD.md`
+
+## 完美实践检查清单（每次发布前逐项确认）
+
+- [ ] 正文开头有论文基本信息（标题/作者/时间/链接），纯文本格式，不用表格
+- [ ] 正文开头有核心摘要（背景/目标、方法、结果、结论），纯文本格式，不用表格
+- [ ] 所有标题（H2/H3/H4）上下均有空行（统一加 `margin-top:20px`）
+- [ ] 所有段落统一加 `margin-top:16px`
+- [ ] 图片使用 Markdown `![alt](path)` 语法写在 .md 文件中，转换脚本自动替换为 HTML
+- [ ] HTML img 标签行直接 append，不经过 escape 函数
+- [ ] 封面图 thumb_media_id 使用最新获取的 media_id
+- [ ] access_token 如已过期（2小时）先重新获取
+- [ ] JSON 中每个图片 URL 长度 > 150 字符（完整 URL）
+- [ ] 矢量图形论文（ACM/SOSP/CVPR 等）已用 get_pixmap() 渲染，而非 get_images()
 
 ## 相关技能
 

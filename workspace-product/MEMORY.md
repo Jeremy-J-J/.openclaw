@@ -66,8 +66,22 @@
 - **Chrome MCP（browser 工具）**：需要操作用户已登录状态、保留 cookies/session 的场景
 - **agent-browser CLI**：独立 session、多 session 隔离、自动化流程
 
+### 微信公众号发布关键教训（2026-04-12 MinerU2.5实战 - 完美版）
+- **★★★ 微信素材库上传后 URL 必须验证 ★★★**：首次上传后返回的 mmbiz URL 可能与预期域名不一致（如 `sz_mmbiz_png` vs `mmbiz_png` 混用），导致图片不显示。**解决**：每次上传后立即检查 URL 是否与预期一致，若异常则重新上传同一图片文件直到 URL 正确
+- **★★★ PDF图片顺序 ≠ 论文图号，必须人工核对 ★★★**：PyMuPDF 按页码提取图片，但论文中引用的 Figure 编号与实际页码不一定对应（如论文 Figure 1 可能提取出来是 fig_p6_xref230，而 fig_p4_xref184 才是真正的 Figure 1）。**解决**：在研读报告中插入图片时，必须对照原文确认每张图的实际图号，不能假设文件名中的页码等于论文图号
+- **★★★ access_token 有效期 2 小时，过期必须重新获取 ★★★**：调用 API 时如遇到 `access_token expired` 错误，立即重新获取 token
+- **★★★ 草稿箱 JSON 格式是 {"articles": [...]} ★★★**：不是 `{"article": {...}}`，也不是 `{"news": {...}}`
+- **★★★ Markdown 图片语法必须在 .md 文件中写 `![alt](path)`，不要写 HTML 标签 ★★★**：转换脚本用 `re.sub` 将 `![...](path)` 替换为 HTML img 标签；HTML img 标签行直接 append 不经过 escape
+- **★★★ 正文开头基本信息格式已确定 ★★★**：纯文本段落（不用表格），格式为：论文标题、作者团队、发布时间、论文地址、开源地址、背景/目标、方法、结果、结论
+- **★★★ 标题间距规范已确定 ★★★**：所有 H2/H3/H4 统一加 `margin-top:20px`（上下均有间距），不再区分顶级/子章节；所有段落统一加 `margin-top:16px`
+- **★★★ thumb_media_id 必须使用最新获取的 media_id ★★★**：每次重新上传封面图会得到新的 media_id，旧的可能失效
+- **相关 Skill**：`skills/self-paper-wechat-publisher/SKILL.md`（2026-04-12 完美更新）
+
 ### Paper-Parse 论文解析最佳实践（2026-04-09 总结）
-- **★★★ 图表必须提取原生图片，不可用整页截图 ★★★**：用 PyMuPDF(fitz) 从 PDF 中提取 `page.get_images()` 原生图片，而非用 `get_pixmap()` 截整页
+- **★★★ 矢量图形用 get_pixmap 高分辨率渲染，嵌入图片用 get_images ★★★**：会议论文（ACM/SOSP等）的图表多为矢量图形（`get_images()` 返回空）；正确做法：先用 `page.get_images()` 检查有无嵌入 raster 图片，如有则提取；如无（矢量图），用 `get_pixmap(matrix=fitz.Matrix(3.0, 3.0), clip=fitz.Rect(x0,y0,x1,y1))` 以 3x 高分辨率渲染精准区域，裁切坐标通过 caption 文本坐标反推
+  - **★★★ 图号 ≠ 页码 ≠ 最大嵌入图片 ★★★**：PyMuPDF 提取出来的图片顺序与论文 Figure 编号不一定对应；嵌入图片可能是 Logo、照片示例、supplementary material；论文的 "Figure 1" 可能是矢量路径图（无嵌入图片）；必须对照 caption 确认位置
+  - **★★★ AI 验证渲染内容 ★★★**：矢量图渲染后必须调用 image 工具确认内容与 caption 描述匹配
+  - **★★★ 嵌入图片多 ≠ 论文主图 ★★★**：RefineAnything 有 79 张嵌入图片，但全部是论文示例照片（电商场景图），Figure 1-9 全部是矢量路径；某页嵌入图片极多时通常是示例照片，不是主图
 - **★★★ 图片缩放：宽度 > 900px 必须缩放 ★★★**：用 macOS 内置 `sips -Z 900` 命令；可一次处理多张：
   ```bash
   for f in charts/*.png; do
@@ -91,3 +105,7 @@
 - **LaTeX 公式**：使用 `$$公式$$` 格式；需目标渲染器支持 MathJax/KaTeX；GitHub/GitLab 不支持
 - **全文提取**：优先 `pdftotext`；若不可用，用 PyMuPDF：`for page in doc: text += page.get_text()`
 - **相关 Skill**：`skills/paper-parse/SKILL.md`（2026-04-09 已同步更新）
+
+### 微信公众号发布新增教训（2026-04-13 RefineAnything 教训）
+- **★★★ JSON 中图片 URL 必须完整 ★★★**：shell 中 `echo $RESP | python3` 会导致 URL 被截断（约 200 字符被截成 155）；**必须全程在 Python 中提取 URL**：`subprocess.run(["curl", ...], capture_output=True)` → `json.loads(RESP.stdout).get("url")`；验证：JSON 中每个 URL 长度必须 > 150 字符才是完整 URL
+- **★★★ JSON 中 URL 来源只能是素材接口返回值 ★★★**：从上传接口的 `url` 字段取，不要从 shell echo 截取

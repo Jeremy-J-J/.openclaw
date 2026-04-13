@@ -40,27 +40,86 @@ doc.close()
 
 #### 1.2 提取论文原生图表（关键！）
 
-**必须提取 PDF 中的原生图片**，而不是整页截图。使用 PyMuPDF 提取嵌入图片：
+**★★★ 图表提取前必须先确认图表类型 ★★★**
 
+学术论文 PDF 中的图表分为两类，提取策略完全不同：
+
+| 图表类型 | 典型来源 | 提取方法 | get_images() 结果 |
+|---|---|---|---|
+| **嵌入Raster图片** | 照片、真实图片、Logo | `doc.extract_image(xref)` | ✅ 有图片返回 |
+| **矢量图形** | 架构图、流程图、结果对比图 | `page.get_pixmap()` 渲染 | ❌ 返回空（矢量路径无嵌入图片） |
+
+**★★★ 会议论文（ACM/SOSP/CVPR 等）图表几乎都是矢量图形 ★★★**
+
+实战经验：
+- vLLM (SOSP 2023) 全文只有 1 张嵌入 JPEG（机构 Logo），Figure 1-9 全部是矢量路径
+- RefineAnything (arXiv 2026) 79 张嵌入图片均为论文示例照片，Figure 1-9 全部是矢量路径
+
+**两步判断法**：
+1. 对每页调用 `get_images()`，统计嵌入图片数量
+2. 如果某页嵌入图片极少（如 0-1 张），说明该页 Figure 是矢量图；如果极多（如 >5 张），通常是示例照片（不是主图）
+
+**矢量图形提取步骤**（不能用 get_images()）：
+
+**第一步：找 Caption 坐标定位 Figure 区域**
 ```python
-import fitz, os
-
-os.makedirs('charts', exist_ok=True)
+import fitz, re
 doc = fitz.open('paper.pdf')
+caption_positions = {}
+for page_num in range(len(doc)):
+    page = doc[page_num]
+    blocks = page.get_text("dict")["blocks"]
+    for b in blocks:
+        if b["type"] == 0:
+            for line in b["lines"]:
+                for span in line["spans"]:
+                    t = span["text"].strip()
+                    m = re.match(r'Fig[.]?\s*(\d+)', t)
+                    if m:
+                        bbox = span["bbox"]
+                        caption_positions[int(m.group(1))] = {
+                            'page': page_num + 1,
+                            'x': bbox[0], 'y': bbox[1]
+                        }
+                        print(f"Fig {m.group(1)}: page {page_num+1}, x={bbox[0]:.0f}, y={bbox[1]:.0f}")
+doc.close()
+```
 
+**第二步：根据 Caption 坐标确定渲染区域**
+- Caption 的 y 坐标 = Figure 的下边界
+- Figure 的上边界：y≈38（页面顶部，排除页眉）
+- 左/右边界：根据 caption x 位置判断：x<100 → 左栏（x≈54-306）；x>50 但不在左栏 → 右栏（x≈324-600）或通栏（x≈54-600）
+
+**第三步：get_pixmap() 渲染矢量区域**
+```python
+page = doc[page_num - 1]
+clip = fitz.Rect(50, 38, 580, caption_y - 5)  # 左栏矢量区域
+pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0), clip=clip)
+pix.save(f'charts/fig{fig_num}.png')
+```
+
+**第四步：必须用 AI 验证渲染内容**
+渲染后调用 image 工具确认内容与 caption 描述匹配。如果内容不对（截到旁边文字），调整 y1 坐标重新渲染。
+
+**嵌入 Raster 图片提取**（仅用于照片/Logo/示例图，不是主图）：
+```python
+doc = fitz.open('paper.pdf')
 for page_num in range(len(doc)):
     page = doc[page_num]
     images = page.get_images(full=True)
     for img in images:
         xref = img[0]
         base = doc.extract_image(xref)
-        ext = base['ext']        # 如 'png'
-        w, h = base['width'], base['height']
-        with open(f'charts/fig_p{page_num+1}_xref{xref}.{ext}', 'wb') as f:
+        with open(f'charts/fig_p{page_num+1}_xref{xref}.{base["ext"]}', 'wb') as f:
             f.write(base['image'])
-        print(f'Saved: fig_p{page_num+1}_xref{xref}.{ext} ({w}x{h})')
 doc.close()
 ```
+
+**★★★ 图号 ≠ 页码 ≠ 最大嵌入图片 ★★★**
+常见错误：认为 PDF 第 N 张嵌入图片就是论文 Figure N。实际情况：
+- 嵌入图片可能是 Logo、照片示例、supplementary material
+- 论文的 "Figure 1" 可能是矢量路径（无嵌入图片）
+- 每次必须对照 caption 确认所在页面和内容
 
 **图表提取标准**（必须提取的图表类型）：
 - 论文架构图 / 系统框图 / 框架图
